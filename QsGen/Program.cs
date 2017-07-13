@@ -133,14 +133,22 @@ namespace QsGen
                         }
                         ).ToList();
 
-                    var qsSection = new QSSection { Version = 90, TVMId = "TVM50", QuickSelects = qs.First().Value };
+                    // same timeband list for all TVMs
                     var timebandSection = new TimebandSection { TBGroupList = timebands };
-                    using (var fs = new FileStream(@"q:\temp\QUICK_SE", FileMode.Create, FileAccess.Write))
+
+                    foreach (var stationKey in qs.Keys)
                     {
-                        byte[] header = new UTF8Encoding(true).GetBytes("TLtV0100");
-                        fs.Write(header, 0, header.Length);
-                        qsSection.Serialise(fs);
-                        timebandSection.Serialise(fs);
+                        var qsSection = new QSSection { Version = 90, TVMId = "TVM50", QuickSelects = qs.First().Value };
+
+                        var filename = "QUICK_SE." + stationKey;
+                        using (var fs = new FileStream(filename, FileMode.Create, FileAccess.Write))
+                        {
+                            byte[] header = new UTF8Encoding(true).GetBytes("TLtV0100");
+                            fs.Write(header, 0, header.Length);
+                            qsSection.Serialise(fs);
+                            timebandSection.Serialise(fs);
+                        }
+
                     }
                 }
             }
