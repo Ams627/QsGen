@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +6,7 @@ using TlvSerialise;
 
 namespace QsGen
 {
-    class QSFile : TlvSerialisable
+    class QSSection : TlvSerialisable
     {
         [Tlv(TlvTypes.UInt, TlvTags.ID_QCKSEL_NUMERO_VERSION)]
         public int Version { get; set; }
