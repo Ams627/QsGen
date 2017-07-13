@@ -1,0 +1,13 @@
+Checking the quick select file
+
+There must be q elements
+No q element should be non-empty
+q elements must contain the following elements d, r, u, f, t, fare, cli, orient, dband, tband
+
+d must be valid nlc
+r must be 5 digits
+u and f must be valid dates - u must be after f
+t must be valid ticket code
+cli must be int 1 digit
+orient must be int zero or one
+dband and tband must be non-empty

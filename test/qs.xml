@@ -1,22 +1,23 @@
 <ParkeonQS>
 <station nlc="9414">
+    <q d="9319" r="00000" u="2017-12-31" f="2017-02-28"
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
-    <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
 </station>
 <station nlc="9415">
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
-       t="7DS" af="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="149523" cli="1" fl="1" orient="2" dband="yyyyynn" tband="All"/>
 </station>
+<timeband name="All" > 
 </ParkeonQS>
