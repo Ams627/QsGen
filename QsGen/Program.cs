@@ -67,27 +67,35 @@ namespace QsGen
             CheckElements(elements, x => GetDate(x.Attribute("f")?.Value) == null, "f attribute represents an invalid date (should be yyyy-mm-dd).");
             CheckElements(elements, x => GetDate(x.Attribute("u")?.Value) == null, "u attribute represents an invalid date (should be yyyy-mm-dd).");
 
-            CheckElements(elements, x => !Regex.Match(x.Attribute("d").Value, "^[A-Z0-9][A-Z0-9][0-9][0-9]$").Success, "element at line has an invalid NLC.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("r").Value, "^[0-9]{5}$").Success, $"r element has an invalid route code.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("t").Value, "^[0-9A-Z]{3}$").Success, "t element has an invalid ticket code.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("fare").Value, "^[0-9]{1,10}$").Success, $"fare element has an invalid fare.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("res").Value, "^[0-9A-Z]{2}$").Success, $"res element has an invalid restriction code.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("cli").Value, "^[0-9]$").Success, $"cli element at line is invalid.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("fl").Value, "^[0-9]$").Success, $"fl element at line is invalid.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("orient").Value, "^[0-9]$").Success, $"orient element at line is invalid.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("d").Value, "^[A-Z0-9][A-Z0-9][0-9][0-9]$").Success, "attribute at line has an invalid NLC.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("r").Value, "^[0-9]{5}$").Success, $"r attribute has an invalid route code.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("t").Value, "^[0-9A-Z]{3}$").Success, "t attribute has an invalid ticket code.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("fare").Value, "^[0-9]{1,10}$").Success, $"fare attribute has an invalid fare.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("res").Value, "^[0-9A-Z]{2}$").Success, $"res attribute has an invalid restriction code.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("cli").Value, "^[0123]$").Success, $"cli (Cross London Indicator) attribute is invalid.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("fl").Value, "^[0-9]$").Success, $"flag attribute is invalid.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("orient").Value, "^[0-9]$").Success, $"orient attribute at line is invalid.");
         }
 
+        private static void CheckTimebands(IEnumerable<XElement> elements)
+        {
+            CheckElements(elements, x => !Regex.Match(x.Attribute("start").Value, "^[0-9][0-9]?:[0-9][0-9](:[0-9][0-9])?$").Success, $"start attribute is invalid (should be hh:mm or hh:mm:ss)");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("end").Value, "^[0-9][0-9]?:[0-9][0-9](:[0-9][0-9])?$").Success, $"end attribute is invalid (should be hh:mm or hh:mm:ss)");
+        }
         private static void Main(string[] args)
         {
             try
             {
                 if (args.Count() == 0)
                 {
-
+                    var codeBase = System.Reflection.Assembly.GetEntryAssembly().CodeBase;
+                    var progname = Path.GetFileNameWithoutExtension(codeBase);
+                    Console.Error.WriteLine($"Usage:\n\n    {progname} qs.xml\n\nwhere qs.xml is an xml file representing quick selects for the whole network.\n");
+                    Console.Error.WriteLine($"Use \n\n {progname} -sample\n\nto generate a sample xml file.");
                 }
                 else if (args[0] == "-sample")
                 {
-
+                    CreateSampleAndPrint();                    
                 }
                 else
                 {
@@ -148,16 +156,30 @@ namespace QsGen
                             qsSection.Serialise(fs);
                             timebandSection.Serialise(fs);
                         }
-
                     }
                 }
             }
             catch (Exception ex)
             {
-                var codeBase = System.Reflection.Assembly.GetExecutingAssembly().CodeBase;
+                var codeBase = System.Reflection.Assembly.GetEntryAssembly().CodeBase;
                 var progname = Path.GetFileNameWithoutExtension(codeBase);
                 Console.Error.WriteLine(progname + ": Error: " + ex.Message);
             }
+
+        }
+
+        private static void CreateSampleAndPrint()
+        {
+            var qslist = new List<QuickSelect>
+            {
+                new QuickSelect { Code = 2971, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDS", Restriction = "  ", AdultFare = 660, CrossLondonInd = 0, Orientation = 0, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
+                new QuickSelect { Code = 2972, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDR", Restriction = "  ", AdultFare = 780, CrossLondonInd = 0, Orientation = 1, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
+            };
+
+            var doc = new XDocument(
+                new XElement(
+                    "ParkeonQS", new XElement("stations", new XElement("station", 
+                );
 
         }
     }
