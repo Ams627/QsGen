@@ -1,0 +1,921 @@
+<ParkeonQS version="50">
+  <stations>
+    <station nlc="9039" tvmid="1200">
+      <q n="1" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SDS" res="  " fare="1730" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="3" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SVR" res="8F" fare="2730" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="4" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SVR" res="8F" fare="2730" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="5" u="2999-12-31" f="2014-01-02" o="9039" d="9079" r="00000" t="SDS" res="  " fare="540" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="6" u="2999-12-31" f="2014-01-02" o="9039" d="9079" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="7" u="2999-12-31" f="2014-01-02" o="9039" d="9079" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="8" u="2999-12-31" f="2014-01-02" o="9039" d="8805" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="9" u="2999-12-31" f="2014-01-02" o="9039" d="8805" r="00000" t="CDR" res="H1" fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="10" u="2999-12-31" f="2014-01-02" o="9039" d="8805" r="00000" t="CDR" res="H1" fare="830" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="11" u="2999-12-31" f="2014-01-02" o="9039" d="0433" r="00000" t="SDS" res="  " fare="2710" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="12" u="2999-12-31" f="2014-01-02" o="9039" d="0433" r="00000" t="SVR" res="8F" fare="3740" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="13" u="2999-12-31" f="2014-01-02" o="9039" d="0433" r="00000" t="SVR" res="8F" fare="3740" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="14" u="2999-12-31" f="2014-01-02" o="9039" d="8976" r="00000" t="SOR" res="  " fare="3510" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="15" u="2999-12-31" f="2014-01-02" o="9039" d="8976" r="00000" t="SVR" res="8F" fare="2980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="16" u="2999-12-31" f="2014-01-02" o="9039" d="8976" r="00000" t="SVR" res="8F" fare="2980" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="17" u="2999-12-31" f="2014-01-02" o="9039" d="9028" r="00000" t="SDS" res="  " fare="370" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="18" u="2999-12-31" f="2014-01-02" o="9039" d="9028" r="00000" t="CDR" res="H1" fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="19" u="2999-12-31" f="2014-01-02" o="9039" d="9028" r="00000" t="CDR" res="H1" fare="500" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="20" u="2999-12-31" f="2014-01-02" o="9039" d="9121" r="00000" t="SDS" res="  " fare="590" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="21" u="2999-12-31" f="2014-01-02" o="9039" d="9121" r="00000" t="CDR" res="H1" fare="790" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="22" u="2999-12-31" f="2014-01-02" o="9039" d="9121" r="00000" t="CDR" res="H1" fare="790" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="23" u="2999-12-31" f="2014-01-02" o="9039" d="9080" r="00000" t="SDS" res="  " fare="1020" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="24" u="2999-12-31" f="2014-01-02" o="9039" d="9080" r="00000" t="CDR" res="H1" fare="1120" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="25" u="2999-12-31" f="2014-01-02" o="9039" d="9080" r="00000" t="CDR" res="H1" fare="1120" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="26" u="2999-12-31" f="2014-01-02" o="9039" d="9888" r="00000" t="SDS" res="  " fare="1380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="27" u="2999-12-31" f="2014-01-02" o="9039" d="9888" r="00000" t="SVR" res="8F" fare="2110" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="28" u="2999-12-31" f="2014-01-02" o="9039" d="9888" r="00000" t="SVR" res="8F" fare="2110" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="29" u="2999-12-31" f="2014-01-02" o="9039" d="9145" r="00000" t="SDS" res="  " fare="1130" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="31" u="2999-12-31" f="2014-01-02" o="9039" d="9145" r="00000" t="CDR" res="H1" fare="1430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="32" u="2999-12-31" f="2014-01-02" o="9039" d="9145" r="00000" t="CDR" res="H1" fare="1430" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="33" u="2999-12-31" f="2014-01-02" o="9039" d="9188" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="34" u="2999-12-31" f="2014-01-02" o="9039" d="9188" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="35" u="2999-12-31" f="2014-01-02" o="9039" d="9188" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="36" u="2999-12-31" f="2014-01-02" o="9039" d="9136" r="00000" t="SDS" res="  " fare="1430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="37" u="2999-12-31" f="2014-01-02" o="9039" d="9136" r="00000" t="SVR" res="8F" fare="2040" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="38" u="2999-12-31" f="2014-01-02" o="9039" d="9136" r="00000" t="SVR" res="8F" fare="2040" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="39" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SDS" res="  " fare="1730" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+    </station>
+    <station nlc="9039" tvmid="1201">
+      <q n="40" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SVR" res="8F" fare="2730" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="41" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SVR" res="8F" fare="2730" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="42" u="2999-12-31" f="2014-01-02" o="9039" d="9079" r="00000" t="SDS" res="  " fare="540" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="43" u="2999-12-31" f="2014-01-02" o="9039" d="9079" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="44" u="2999-12-31" f="2014-01-02" o="9039" d="9079" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="45" u="2999-12-31" f="2014-01-02" o="9039" d="8805" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="46" u="2999-12-31" f="2014-01-02" o="9039" d="8805" r="00000" t="CDR" res="H1" fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="47" u="2999-12-31" f="2014-01-02" o="9039" d="8805" r="00000" t="CDR" res="H1" fare="830" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="48" u="2999-12-31" f="2014-01-02" o="9039" d="0433" r="00000" t="SDS" res="  " fare="2710" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="49" u="2999-12-31" f="2014-01-02" o="9039" d="0433" r="00000" t="SVR" res="8F" fare="3740" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="50" u="2999-12-31" f="2014-01-02" o="9039" d="0433" r="00000" t="SVR" res="8F" fare="3740" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="51" u="2999-12-31" f="2014-01-02" o="9039" d="8976" r="00000" t="SOR" res="  " fare="3510" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="52" u="2999-12-31" f="2014-01-02" o="9039" d="8976" r="00000" t="SVR" res="8F" fare="2980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="53" u="2999-12-31" f="2014-01-02" o="9039" d="8976" r="00000" t="SVR" res="8F" fare="2980" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="54" u="2999-12-31" f="2014-01-02" o="9039" d="9028" r="00000" t="SDS" res="  " fare="370" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="55" u="2999-12-31" f="2014-01-02" o="9039" d="9028" r="00000" t="CDR" res="H1" fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="56" u="2999-12-31" f="2014-01-02" o="9039" d="9028" r="00000" t="CDR" res="H1" fare="500" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="57" u="2999-12-31" f="2014-01-02" o="9039" d="9121" r="00000" t="SDS" res="  " fare="590" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="58" u="2999-12-31" f="2014-01-02" o="9039" d="9121" r="00000" t="CDR" res="H1" fare="790" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="59" u="2999-12-31" f="2014-01-02" o="9039" d="9121" r="00000" t="CDR" res="H1" fare="790" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="60" u="2999-12-31" f="2014-01-02" o="9039" d="9080" r="00000" t="SDS" res="  " fare="1020" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="61" u="2999-12-31" f="2014-01-02" o="9039" d="9080" r="00000" t="CDR" res="H1" fare="1120" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="62" u="2999-12-31" f="2014-01-02" o="9039" d="9080" r="00000" t="CDR" res="H1" fare="1120" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="63" u="2999-12-31" f="2014-01-02" o="9039" d="9888" r="00000" t="SDS" res="  " fare="1380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="64" u="2999-12-31" f="2014-01-02" o="9039" d="9888" r="00000" t="SVR" res="8F" fare="2110" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="65" u="2999-12-31" f="2014-01-02" o="9039" d="9888" r="00000" t="SVR" res="8F" fare="2110" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="66" u="2999-12-31" f="2014-01-02" o="9039" d="9145" r="00000" t="SDS" res="  " fare="1130" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="67" u="2999-12-31" f="2014-01-02" o="9039" d="9145" r="00000" t="CDR" res="H1" fare="1430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="68" u="2999-12-31" f="2014-01-02" o="9039" d="9145" r="00000" t="CDR" res="H1" fare="1430" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="69" u="2999-12-31" f="2014-01-02" o="9039" d="9188" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="70" u="2999-12-31" f="2014-01-02" o="9039" d="9188" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="71" u="2999-12-31" f="2014-01-02" o="9039" d="9188" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="72" u="2999-12-31" f="2014-01-02" o="9039" d="9136" r="00000" t="SDS" res="  " fare="1430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="73" u="2999-12-31" f="2014-01-02" o="9039" d="9136" r="00000" t="SVR" res="8F" fare="2040" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="74" u="2999-12-31" f="2014-01-02" o="9039" d="9136" r="00000" t="SVR" res="8F" fare="2040" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9950" tvmid="1202">
+      <q n="454" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="455" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="456" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="457" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="458" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="459" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="SDR" res="  " fare="1260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="460" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="461" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="SDR" res="  " fare="1260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="462" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="463" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="464" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="SDS" res="  " fare="220" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="465" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="466" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="SDS" res="  " fare="220" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="467" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="468" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="469" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="SDS" res="  " fare="310" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="470" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="471" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="SDS" res="  " fare="310" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="472" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="473" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="474" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="SDS" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="475" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="476" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="SDS" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="477" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="478" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="479" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="SDS" res="  " fare="750" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="480" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="481" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="SDS" res="  " fare="750" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="482" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="483" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="484" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="SDS" res="  " fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="485" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="486" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="SDS" res="  " fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="487" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="488" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="489" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="SDS" res="  " fare="1560" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="490" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="CDR" res="B7" fare="1570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="491" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="SDS" res="  " fare="1560" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="492" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="CDR" res="B7" fare="1570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="493" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="CDR" res="B7" fare="1570" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="494" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="SDS" res="  " fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="495" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="496" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="SDS" res="  " fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="497" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="498" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="499" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="500" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="501" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="502" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="503" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="504" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="SDS" res="  " fare="980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="505" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="CDR" res="H1" fare="1210" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="506" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="SDS" res="  " fare="980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="507" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="CDR" res="H1" fare="1210" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="508" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="CDR" res="H1" fare="1210" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="509" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="SDS" res="  " fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="510" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="511" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="SDS" res="  " fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="512" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="513" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9876" tvmid="1205">
+      <q n="420" u="2999-12-31" f="2014-01-02" o="9876" d="0433" r="00000" t="SDR" res="  " fare="1090" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="421" u="2999-12-31" f="2014-01-02" o="9876" d="0433" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="422" u="2999-12-31" f="2014-01-02" o="9876" d="0433" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="423" u="2999-12-31" f="2014-01-02" o="9876" d="9328" r="00000" t="SDR" res="  " fare="1210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="424" u="2999-12-31" f="2014-01-02" o="9876" d="9328" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="425" u="2999-12-31" f="2014-01-02" o="9876" d="9328" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="380" u="2999-12-31" f="2014-01-02" o="9876" d="9888" r="00000" t="SDR" res="  " fare="640" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="381" u="2999-12-31" f="2014-01-02" o="9876" d="9888" r="00000" t="CDR" res="H1" fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="426" u="2999-12-31" f="2014-01-02" o="9876" d="9888" r="00000" t="CDR" res="H1" fare="500" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="427" u="2999-12-31" f="2014-01-02" o="9876" d="0431" r="00000" t="SDR" res="  " fare="370" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="428" u="2999-12-31" f="2014-01-02" o="9876" d="0431" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="429" u="2999-12-31" f="2014-01-02" o="9876" d="0431" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="430" u="2999-12-31" f="2014-01-02" o="9876" d="9395" r="00000" t="SDR" res="  " fare="1180" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="431" u="2999-12-31" f="2014-01-02" o="9876" d="9395" r="00000" t="CDR" res="H1" fare="870" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="432" u="2999-12-31" f="2014-01-02" o="9876" d="9395" r="00000" t="CDR" res="H1" fare="870" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="433" u="2999-12-31" f="2014-01-02" o="9876" d="9438" r="00000" t="SDR" res="  " fare="800" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="434" u="2999-12-31" f="2014-01-02" o="9876" d="9438" r="00000" t="CDR" res="H1" fare="660" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="435" u="2999-12-31" f="2014-01-02" o="9876" d="9438" r="00000" t="CDR" res="H1" fare="660" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="436" u="2999-12-31" f="2014-01-02" o="9876" d="9936" r="00000" t="SDR" res="  " fare="450" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="437" u="2999-12-31" f="2014-01-02" o="9876" d="9936" r="00000" t="CDR" res="H1" fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="438" u="2999-12-31" f="2014-01-02" o="9876" d="9936" r="00000" t="CDR" res="H1" fare="380" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="439" u="2999-12-31" f="2014-01-02" o="9876" d="9943" r="00000" t="SDR" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="440" u="2999-12-31" f="2014-01-02" o="9876" d="9943" r="00000" t="CDR" res="H1" fare="600" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="441" u="2999-12-31" f="2014-01-02" o="9876" d="9943" r="00000" t="CDR" res="H1" fare="600" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="442" u="2999-12-31" f="2014-01-02" o="9876" d="9883" r="00000" t="SDR" res="  " fare="980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="443" u="2999-12-31" f="2014-01-02" o="9876" d="9883" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="444" u="2999-12-31" f="2014-01-02" o="9876" d="9883" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="445" u="2999-12-31" f="2014-01-02" o="9876" d="8976" r="00000" t="SOR" res="  " fare="6210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="446" u="2999-12-31" f="2014-01-02" o="9876" d="8976" r="00000" t="SVR" res="8F" fare="5500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="447" u="2999-12-31" f="2014-01-02" o="9876" d="8976" r="00000" t="SVR" res="8F" fare="5500" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="448" u="2999-12-31" f="2014-01-02" o="9876" d="9889" r="00000" t="SDR" res="  " fare="750" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="449" u="2999-12-31" f="2014-01-02" o="9876" d="9889" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="450" u="2999-12-31" f="2014-01-02" o="9876" d="9889" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="451" u="2999-12-31" f="2014-01-02" o="9876" d="9419" r="00000" t="SDR" res="  " fare="1210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 00:00-09:09"/>
+      <q n="452" u="2999-12-31" f="2014-01-02" o="9876" d="9419" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Lar 09:10-23:59"/>
+      <q n="453" u="2999-12-31" f="2014-01-02" o="9876" d="9419" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9419" tvmid="1206">
+      <q n="75" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="76" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="77" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="78" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="79" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="80" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="81" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="82" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="83" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="84" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="85" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="86" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="87" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="88" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="89" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="90" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="91" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="92" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="93" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="94" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="95" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="96" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="97" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="98" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="99" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="100" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="101" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="102" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="103" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="104" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="105" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="106" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="107" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="108" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="109" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="110" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="111" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="112" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="113" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="114" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="115" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="116" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="117" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="118" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="119" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="120" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="121" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="122" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="123" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="124" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="125" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="126" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="127" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="128" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="129" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="130" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="131" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="132" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="133" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="134" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9419" tvmid="1207">
+      @<q n="135" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="136" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="137" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="138" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="139" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="140" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="141" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="142" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="143" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="144" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="145" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="146" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="147" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="148" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="149" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="150" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="151" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="152" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="153" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="154" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="155" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="156" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="157" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="158" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="159" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="160" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="161" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="162" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="163" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="164" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="165" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="166" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="167" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="168" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="169" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="170" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="171" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="172" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="173" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="174" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="175" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="176" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="177" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="178" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="179" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="180" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="181" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="182" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="183" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="184" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="185" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="186" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="187" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="188" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="189" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="190" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="191" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="192" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="193" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="194" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9419" tvmid="1208">
+      <q n="195" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="196" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="197" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="198" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="199" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="200" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="201" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="202" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="203" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="204" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="205" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="206" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="207" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="208" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="209" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="210" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="211" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="212" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="213" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="214" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="215" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="216" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="217" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="218" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="219" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="220" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="221" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="222" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="223" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="224" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="225" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="226" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="227" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="228" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="229" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="230" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="231" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="232" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="233" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="234" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="235" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="236" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="237" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="238" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="239" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="240" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="241" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="242" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="243" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="244" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="245" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="246" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="247" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="248" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="249" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="250" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="251" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="252" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="253" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="254" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9419" tvmid="1210">
+      <q n="255" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="256" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="257" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="258" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="259" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="260" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="261" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="262" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="263" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="264" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="265" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="266" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="267" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="268" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="269" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="270" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="271" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="272" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="273" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="274" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="275" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="276" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="277" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="278" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="279" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="280" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="281" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="282" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="283" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="284" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="285" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="286" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="287" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="288" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="289" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="290" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="291" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="292" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="293" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="294" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="295" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="296" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="297" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="298" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="299" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="300" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="301" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="302" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="303" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="304" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="305" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="306" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="307" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="308" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="309" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="310" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="311" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="312" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="313" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="314" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9419" tvmid="1211">
+      <q n="315" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="316" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="317" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="318" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="319" u="2999-12-31" f="2014-01-02" o="9419" d="0433" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="320" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="321" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="322" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="323" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="324" u="2999-12-31" f="2014-01-02" o="9419" d="9328" r="00000" t="CDR" res="H1" fare="260" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="325" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="326" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="327" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="328" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="329" u="2999-12-31" f="2014-01-02" o="9419" d="9395" r="00000" t="CDR" res="H1" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="330" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="331" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="332" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="333" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="334" u="2999-12-31" f="2014-01-02" o="9419" d="9438" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="335" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="336" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="337" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="SDS" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="338" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="339" u="2999-12-31" f="2014-01-02" o="9419" d="9888" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="340" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="341" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="342" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="SDS" res="  " fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="343" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="344" u="2999-12-31" f="2014-01-02" o="9419" d="9371" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="345" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="346" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="347" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="348" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="349" u="2999-12-31" f="2014-01-02" o="9419" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="350" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="351" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="352" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="SDS" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="353" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="354" u="2999-12-31" f="2014-01-02" o="9419" d="9145" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="355" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="356" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="357" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="SDS" res="  " fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="358" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="359" u="2999-12-31" f="2014-01-02" o="9419" d="0431" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="360" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="361" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="362" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="SDS" res="  " fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="363" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="364" u="2999-12-31" f="2014-01-02" o="9419" d="9186" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="365" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="366" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="367" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="SDS" res="  " fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="368" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="369" u="2999-12-31" f="2014-01-02" o="9419" d="9415" r="00000" t="CDR" res="H1" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="370" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 00:00-09:09"/>
+      <q n="371" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 09:09-16:30"/>
+      <q n="372" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="SDS" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S11 16:30-18:15"/>
+      <q n="373" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="S22 18:15-23:59"/>
+      <q n="374" u="2999-12-31" f="2014-01-02" o="9419" d="9311" r="00000" t="CDR" res="H1" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9790" tvmid="1212">
+      <q n="514" u="2999-12-31" f="2014-01-02" o="9790" d="0433" r="00000" t="SDR" res="  " fare="250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="515" u="2999-12-31" f="2014-01-02" o="9790" d="0433" r="00000" t="CDR" res="B3" fare="190" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="516" u="2999-12-31" f="2014-01-02" o="9790" d="0433" r="00000" t="CDR" res="B3" fare="190" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="517" u="2999-12-31" f="2014-01-02" o="9790" d="9961" r="00000" t="SDR" res="  " fare="220" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="518" u="2999-12-31" f="2014-01-02" o="9790" d="9961" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="519" u="2999-12-31" f="2014-01-02" o="9790" d="9961" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="520" u="2999-12-31" f="2014-01-02" o="9790" d="9917" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="521" u="2999-12-31" f="2014-01-02" o="9790" d="9917" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="522" u="2999-12-31" f="2014-01-02" o="9790" d="9917" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="523" u="2999-12-31" f="2014-01-02" o="9790" d="9914" r="00000" t="SDR" res="  " fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="524" u="2999-12-31" f="2014-01-02" o="9790" d="9914" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="525" u="2999-12-31" f="2014-01-02" o="9790" d="9914" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="526" u="2999-12-31" f="2014-01-02" o="9790" d="9965" r="00000" t="SDR" res="  " fare="260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 9"/>
+      <q n="527" u="2999-12-31" f="2014-01-02" o="9790" d="9965" r="00000" t="CDR" res="B3" fare="200" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 9 Off-Peak"/>
+      <q n="543" u="2999-12-31" f="2014-01-02" o="9790" d="9965" r="00000" t="CDR" res="B3" fare="200" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="529" u="2999-12-31" f="2014-01-02" o="9790" d="9768" r="00000" t="SDR" res="  " fare="340" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="530" u="2999-12-31" f="2014-01-02" o="9790" d="9768" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="531" u="2999-12-31" f="2014-01-02" o="9790" d="9768" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="532" u="2999-12-31" f="2014-01-02" o="9790" d="9714" r="00000" t="SDR" res="  " fare="560" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="533" u="2999-12-31" f="2014-01-02" o="9790" d="9714" r="00000" t="CDR" res="B3" fare="400" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="534" u="2999-12-31" f="2014-01-02" o="9790" d="9714" r="00000" t="CDR" res="B3" fare="400" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="538" u="2999-12-31" f="2014-01-02" o="9790" d="9691" r="00000" t="SDR" res="  " fare="600" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="539" u="2999-12-31" f="2014-01-02" o="9790" d="9691" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="537" u="2999-12-31" f="2014-01-02" o="9790" d="9691" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="540" u="2999-12-31" f="2014-01-02" o="9790" d="9727" r="00000" t="SDR" res="  " fare="560" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="541" u="2999-12-31" f="2014-01-02" o="9790" d="9727" r="00000" t="CDR" res="B3" fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="542" u="2999-12-31" f="2014-01-02" o="9790" d="9727" r="00000" t="CDR" res="B3" fare="380" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="544" u="2999-12-31" f="2014-01-02" o="9790" d="9683" r="00000" t="SDR" res="  " fare="570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="545" u="2999-12-31" f="2014-01-02" o="9790" d="9683" r="00000" t="CDR" res="B3" fare="400" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="546" u="2999-12-31" f="2014-01-02" o="9790" d="9683" r="00000" t="CDR" res="B3" fare="400" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="547" u="2999-12-31" f="2014-01-02" o="9790" d="9972" r="00000" t="SDR" res="  " fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="548" u="2999-12-31" f="2014-01-02" o="9790" d="9972" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 21 Off-Peak"/>
+      <q n="549" u="2999-12-31" f="2014-01-02" o="9790" d="9972" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="550" u="2999-12-31" f="2014-01-02" o="9790" d="9787" r="00000" t="SDR" res="  " fare="190" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 11"/>
+      <q n="551" u="2999-12-31" f="2014-01-02" o="9790" d="9787" r="00000" t="CDR" res="B3" fare="150" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
+      <q n="552" u="2999-12-31" f="2014-01-02" o="9790" d="9787" r="00000" t="CDR" res="B3" fare="150" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9739" tvmid="1214">
+      <q n="661" u="2999-12-31" f="2014-09-07" o="9739" d="0433" r="00000" t="SDR" res="  " fare="810" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="662" u="2999-12-31" f="2014-09-07" o="9739" d="0433" r="00000" t="CDR" res="B3" fare="590" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="663" u="2999-12-31" f="2014-09-07" o="9739" d="0433" r="00000" t="CDR" res="B3" fare="590" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="664" u="2999-12-31" f="2014-09-07" o="9739" d="9714" r="00000" t="SDR" res="  " fare="570" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="665" u="2999-12-31" f="2014-09-07" o="9739" d="9714" r="00000" t="CDR" res="B3" fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="666" u="2999-12-31" f="2014-09-07" o="9739" d="9714" r="00000" t="CDR" res="B3" fare="380" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="667" u="2999-12-31" f="2014-09-07" o="9739" d="9245" r="00000" t="SDR" res="  " fare="370" cli="0" fl="1" orient="0" dband="YYYYYYY" tband="All"/>
+      <q n="667" u="2999-12-31" f="2014-09-07" o="9739" d="9245" r="00000" t="SDR" res="  " fare="370" cli="0" fl="1" orient="0" dband="YYYYYYY" tband="All"/>
+      <q n="668" u="2999-12-31" f="2014-09-07" o="9739" d="9718" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="669" u="2999-12-31" f="2014-09-07" o="9739" d="9718" r="00000" t="CDR" res="B3" fare="250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="670" u="2999-12-31" f="2014-09-07" o="9739" d="9718" r="00000" t="CDR" res="B3" fare="250" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="671" u="2999-12-31" f="2014-09-07" o="9739" d="9419" r="00000" t="SDR" res="  " fare="1280" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="672" u="2999-12-31" f="2014-09-07" o="9739" d="9419" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="673" u="2999-12-31" f="2014-09-07" o="9739" d="9419" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="674" u="2999-12-31" f="2014-09-07" o="9739" d="9914" r="00000" t="SDR" res="  " fare="810" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="675" u="2999-12-31" f="2014-09-07" o="9739" d="9914" r="00000" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="676" u="2999-12-31" f="2014-09-07" o="9739" d="9914" r="00000" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="677" u="2999-12-31" f="2014-09-07" o="9739" d="9328" r="00000" t="SDR" res="  " fare="1280" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="678" u="2999-12-31" f="2014-09-07" o="9739" d="9328" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="679" u="2999-12-31" f="2014-09-07" o="9739" d="9328" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="680" u="2999-12-31" f="2014-09-07" o="9739" d="9372" r="00000" t="SDR" res="  " fare="700" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="681" u="2999-12-31" f="2014-09-07" o="9739" d="9372" r="00000" t="CDR" res="H1" fare="540" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="682" u="2999-12-31" f="2014-09-07" o="9739" d="9372" r="00000" t="CDR" res="H1" fare="540" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="683" u="2999-12-31" f="2014-09-07" o="9739" d="9877" r="00000" t="SDR" res="  " fare="440" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="684" u="2999-12-31" f="2014-09-07" o="9739" d="9877" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="685" u="2999-12-31" f="2014-09-07" o="9739" d="9877" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="686" u="2999-12-31" f="2014-09-07" o="9739" d="9683" r="00000" t="SDR" res="  " fare="1080" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="687" u="2999-12-31" f="2014-09-07" o="9739" d="9683" r="00000" t="CDR" res="B3" fare="750" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="688" u="2999-12-31" f="2014-09-07" o="9739" d="9683" r="00000" t="CDR" res="B3" fare="750" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="689" u="2999-12-31" f="2014-09-07" o="9739" d="9819" r="00000" t="SDR" res="  " fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="690" u="2999-12-31" f="2014-09-07" o="9739" d="9819" r="00000" t="CDR" res="B3" fare="590" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="691" u="2999-12-31" f="2014-09-07" o="9739" d="9819" r="00000" t="CDR" res="B3" fare="590" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9682" tvmid="1217">
+      <q n="925" u="2999-12-31" f="2014-09-07" o="9682" d="0433" r="00000" t="SDR" res="  " fare="1010" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="926" u="2999-12-31" f="2014-09-07" o="9682" d="0433" r="00000" t="CDR" res="B3" fare="710" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="927" u="2999-12-31" f="2014-09-07" o="9682" d="0433" r="00000" t="CDR" res="B3" fare="710" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="928" u="2999-12-31" f="2014-09-07" o="9682" d="9635" r="00000" t="SDR" res="  " fare="260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="929" u="2999-12-31" f="2014-09-07" o="9682" d="9635" r="00000" t="CDR" res="B3" fare="200" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="930" u="2999-12-31" f="2014-09-07" o="9682" d="9635" r="00000" t="CDR" res="B3" fare="200" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="931" u="2999-12-31" f="2014-09-07" o="9682" d="9675" r="00000" t="SDR" res="  " fare="210" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="932" u="2999-12-31" f="2014-09-07" o="9682" d="9675" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="933" u="2999-12-31" f="2014-09-07" o="9682" d="9675" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="934" u="2999-12-31" f="2014-09-07" o="9682" d="9620" r="00000" t="SDR" res="  " fare="640" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="935" u="2999-12-31" f="2014-09-07" o="9682" d="9620" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="936" u="2999-12-31" f="2014-09-07" o="9682" d="9620" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="937" u="2999-12-31" f="2014-09-07" o="9682" d="9624" r="00000" t="SDR" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="938" u="2999-12-31" f="2014-09-07" o="9682" d="9624" r="00000" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="939" u="2999-12-31" f="2014-09-07" o="9682" d="9624" r="00000" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="940" u="2999-12-31" f="2014-09-07" o="9682" d="9668" r="00000" t="SDR" res="  " fare="250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="941" u="2999-12-31" f="2014-09-07" o="9682" d="9668" r="00000" t="CDR" res="B3" fare="190" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="942" u="2999-12-31" f="2014-09-07" o="9682" d="9668" r="00000" t="CDR" res="B3" fare="190" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="943" u="2999-12-31" f="2014-09-07" o="9682" d="9683" r="00000" t="SDR" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="944" u="2999-12-31" f="2014-09-07" o="9682" d="9683" r="00000" t="CDR" res="B3" fare="560" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="945" u="2999-12-31" f="2014-09-07" o="9682" d="9683" r="00000" t="CDR" res="B3" fare="560" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="946" u="2999-12-31" f="2014-09-07" o="9682" d="9667" r="00000" t="SDR" res="  " fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="947" u="2999-12-31" f="2014-09-07" o="9682" d="9667" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="948" u="2999-12-31" f="2014-09-07" o="9682" d="9667" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="949" u="2999-12-31" f="2014-09-07" o="9682" d="9680" r="00000" t="SDR" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="950" u="2999-12-31" f="2014-09-07" o="9682" d="9680" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="951" u="2999-12-31" f="2014-09-07" o="9682" d="9680" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="952" u="2999-12-31" f="2014-09-07" o="9682" d="9914" r="00000" t="SDR" res="  " fare="1010" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="953" u="2999-12-31" f="2014-09-07" o="9682" d="9914" r="00000" t="CDR" res="B3" fare="710" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="954" u="2999-12-31" f="2014-09-07" o="9682" d="9914" r="00000" t="CDR" res="B3" fare="710" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="955" u="2999-12-31" f="2014-09-07" o="9682" d="9328" r="00000" t="SDR" res="  " fare="3320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="956" u="2999-12-31" f="2014-09-07" o="9682" d="9328" r="00000" t="CDR" res="H1" fare="2230" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="957" u="2999-12-31" f="2014-09-07" o="9682" d="9328" r="00000" t="CDR" res="H1" fare="2230" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="958" u="2999-12-31" f="2014-09-07" o="9682" d="9630" r="00000" t="SDR" res="  " fare="800" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="961" u="2999-12-31" f="2014-09-07" o="9682" d="9630" r="00000" t="CDR" res="B3" fare="590" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="960" u="2999-12-31" f="2014-09-07" o="9682" d="9630" r="00000" t="CDR" res="B3" fare="590" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All" />
+    </station>
+    <station nlc="9635" tvmid="1218">
+      <q n="892" u="2999-12-31" f="2014-09-07" o="9635" d="0433" r="00000" t="SDR" res="  " fare="1080" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="893" u="2999-12-31" f="2014-09-07" o="9635" d="0433" r="00000" t="CDR" res="B3" fare="750" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="894" u="2999-12-31" f="2014-09-07" o="9635" d="0433" r="00000" t="CDR" res="B3" fare="750" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="895" u="2999-12-31" f="2014-09-07" o="9635" d="9683" r="00000" t="SDR" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="896" u="2999-12-31" f="2014-09-07" o="9635" d="9683" r="00000" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="897" u="2999-12-31" f="2014-09-07" o="9635" d="9683" r="00000" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="898" u="2999-12-31" f="2014-09-07" o="9635" d="9667" r="00000" t="SDR" res="  " fare="440" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="899" u="2999-12-31" f="2014-09-07" o="9635" d="9667" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="900" u="2999-12-31" f="2014-09-07" o="9635" d="9667" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="901" u="2999-12-31" f="2014-09-07" o="9635" d="9680" r="00000" t="SDR" res="  " fare="410" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="902" u="2999-12-31" f="2014-09-07" o="9635" d="9680" r="00000" t="CDR" res="B3" fare="250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="903" u="2999-12-31" f="2014-09-07" o="9635" d="9680" r="00000" t="CDR" res="B3" fare="250" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="904" u="2999-12-31" f="2014-09-07" o="9635" d="9914" r="00000" t="SDR" res="  " fare="1080" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="905" u="2999-12-31" f="2014-09-07" o="9635" d="9914" r="00000" t="CDR" res="B3" fare="750" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="906" u="2999-12-31" f="2014-09-07" o="9635" d="9914" r="00000" t="CDR" res="B3" fare="750" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="907" u="2999-12-31" f="2014-01-02" o="9635" d="H603" r="00958" t="SDR" res="  " fare="830" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="908" u="2999-12-31" f="2014-01-02" o="9635" d="H603" r="00958" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="909" u="2999-12-31" f="2014-01-02" o="9635" d="H603" r="00958" t="CDR" res="B3" fare="620" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="910" u="2999-12-31" f="2014-09-07" o="9635" d="9681" r="00000" t="SDR" res="  " fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="911" u="2999-12-31" f="2014-09-07" o="9635" d="9681" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="912" u="2999-12-31" f="2014-09-07" o="9635" d="9681" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="913" u="2999-12-31" f="2014-09-07" o="9635" d="9328" r="00000" t="SDR" res="  " fare="3320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="914" u="2999-12-31" f="2014-09-07" o="9635" d="9328" r="00000" t="CDR" res="H1" fare="2230" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="915" u="2999-12-31" f="2014-09-07" o="9635" d="9328" r="00000" t="CDR" res="H1" fare="2230" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="916" u="2999-12-31" f="2014-09-07" o="9635" d="9620" r="00000" t="SDR" res="  " fare="710" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="917" u="2999-12-31" f="2014-09-07" o="9635" d="9620" r="00000" t="CDR" res="B3" fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="918" u="2999-12-31" f="2014-09-07" o="9635" d="9620" r="00000" t="CDR" res="B3" fare="510" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="919" u="2999-12-31" f="2014-09-07" o="9635" d="9624" r="00000" t="SDR" res="  " fare="970" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="920" u="2999-12-31" f="2014-09-07" o="9635" d="9624" r="00000" t="CDR" res="B3" fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="921" u="2999-12-31" f="2014-09-07" o="9635" d="9624" r="00000" t="CDR" res="B3" fare="680" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="922" u="2999-12-31" f="2014-09-07" o="9635" d="9668" r="00000" t="SDR" res="  " fare="410" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="923" u="2999-12-31" f="2014-09-07" o="9635" d="9668" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="924" u="2999-12-31" f="2014-09-07" o="9635" d="9668" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9667" tvmid="1219">
+      <q n="962" u="2999-12-31" f="2014-09-07" o="9667" d="0433" r="00000" t="SDR" res="  " fare="860" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="963" u="2999-12-31" f="2014-09-07" o="9667" d="0433" r="00000" t="CDR" res="B3" fare="640" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="964" u="2999-12-31" f="2014-09-07" o="9667" d="0433" r="00000" t="CDR" res="B3" fare="640" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="965" u="2999-12-31" f="2014-09-07" o="9667" d="9681" r="00000" t="SDR" res="  " fare="260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="966" u="2999-12-31" f="2014-09-07" o="9667" d="9681" r="00000" t="CDR" res="B3" fare="200" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="967" u="2999-12-31" f="2014-09-07" o="9667" d="9681" r="00000" t="CDR" res="B3" fare="200" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="968" u="2999-12-31" f="2014-09-07" o="9667" d="9635" r="00000" t="SDR" res="  " fare="440" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="969" u="2999-12-31" f="2014-09-07" o="9667" d="9635" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="970" u="2999-12-31" f="2014-09-07" o="9667" d="9635" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="971" u="2999-12-31" f="2014-09-07" o="9667" d="9675" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="972" u="2999-12-31" f="2014-09-07" o="9667" d="9675" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="973" u="2999-12-31" f="2014-09-07" o="9667" d="9675" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="974" u="2999-12-31" f="2014-09-07" o="9667" d="9967" r="00000" t="SDR" res="  " fare="330" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="975" u="2999-12-31" f="2014-09-07" o="9667" d="9967" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="976" u="2999-12-31" f="2014-09-07" o="9667" d="9967" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="977" u="2999-12-31" f="2014-09-07" o="9667" d="9665" r="00000" t="SDR" res="  " fare="250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="978" u="2999-12-31" f="2014-09-07" o="9667" d="9665" r="00000" t="CDR" res="B3" fare="190" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="979" u="2999-12-31" f="2014-09-07" o="9667" d="9665" r="00000" t="CDR" res="B3" fare="190" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="980" u="2999-12-31" f="2014-09-07" o="9667" d="9683" r="00000" t="SDR" res="  " fare="690" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="981" u="2999-12-31" f="2014-09-07" o="9667" d="9683" r="00000" t="CDR" res="B3" fare="490" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="982" u="2999-12-31" f="2014-09-07" o="9667" d="9683" r="00000" t="CDR" res="B3" fare="490" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="983" u="2999-12-31" f="2014-09-07" o="9667" d="9682" r="00000" t="SDR" res="  " fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="984" u="2999-12-31" f="2014-09-07" o="9667" d="9682" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="985" u="2999-12-31" f="2014-09-07" o="9667" d="9682" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="986" u="2999-12-31" f="2014-09-07" o="9667" d="9938" r="00000" t="SDR" res="  " fare="390" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="987" u="2999-12-31" f="2014-09-07" o="9667" d="9938" r="00000" t="CDR" res="B3" fare="250" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="988" u="2999-12-31" f="2014-09-07" o="9667" d="9938" r="00000" t="CDR" res="B3" fare="250" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="989" u="2999-12-31" f="2014-09-07" o="9667" d="9914" r="00000" t="SDR" res="  " fare="860" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="990" u="2999-12-31" f="2014-09-07" o="9667" d="9914" r="00000" t="CDR" res="B3" fare="640" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="991" u="2999-12-31" f="2014-09-07" o="9667" d="9914" r="00000" t="CDR" res="B3" fare="640" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="992" u="2999-12-31" f="2014-09-07" o="9667" d="9673" r="00000" t="SDR" res="  " fare="570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="993" u="2999-12-31" f="2014-09-07" o="9667" d="9673" r="00000" t="CDR" res="B3" fare="410" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="994" u="2999-12-31" f="2014-09-07" o="9667" d="9673" r="00000" t="CDR" res="B3" fare="410" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="995" u="2999-12-31" f="2014-09-07" o="9667" d="9620" r="00000" t="SDR" res="  " fare="560" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="996" u="2999-12-31" f="2014-09-07" o="9667" d="9620" r="00000" t="CDR" res="B3" fare="380" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="997" u="2999-12-31" f="2014-09-07" o="9667" d="9620" r="00000" t="CDR" res="B3" fare="380" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9727" tvmid="1220">
+      <q n="589" u="2999-12-31" f="2014-09-07" o="9727" d="0433" r="00000" t="SDR" res="  " fare="600" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="590" u="2999-12-31" f="2014-09-07" o="9727" d="0433" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="591" u="2999-12-31" f="2014-09-07" o="9727" d="0433" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="592" u="2999-12-31" f="2014-09-07" o="9727" d="9914" r="00000" t="SDR" res="  " fare="640" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="593" u="2999-12-31" f="2014-09-07" o="9727" d="9914" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="594" u="2999-12-31" f="2014-09-07" o="9727" d="9914" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="595" u="2999-12-31" f="2014-09-07" o="9727" d="9917" r="00000" t="SDR" res="  " fare="660" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="596" u="2999-12-31" f="2014-09-07" o="9727" d="9917" r="00000" t="CDR" res="B3" fare="480" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="597" u="2999-12-31" f="2014-09-07" o="9727" d="9917" r="00000" t="CDR" res="B3" fare="480" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="598" u="2999-12-31" f="2014-09-07" o="9727" d="9716" r="00000" t="SDR" res="  " fare="220" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="599" u="2999-12-31" f="2014-09-07" o="9727" d="9716" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="600" u="2999-12-31" f="2014-09-07" o="9727" d="9716" r="00000" t="CDR" res="B3" fare="180" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="601" u="2999-12-31" f="2014-09-07" o="9727" d="9726" r="00000" t="SDR" res="  " fare="190" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="602" u="2999-12-31" f="2014-09-07" o="9727" d="9726" r="00000" t="CDR" res="B3" fare="150" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="603" u="2999-12-31" f="2014-09-07" o="9727" d="9726" r="00000" t="CDR" res="B3" fare="150" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="604" u="2999-12-31" f="2014-09-07" o="9727" d="9768" r="00000" t="SDR" res="  " fare="440" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="605" u="2999-12-31" f="2014-09-07" o="9727" d="9768" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="606" u="2999-12-31" f="2014-09-07" o="9727" d="9768" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="607" u="2999-12-31" f="2014-09-07" o="9727" d="9961" r="00000" t="SDR" res="  " fare="600" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="608" u="2999-12-31" f="2014-09-07" o="9727" d="9961" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="609" u="2999-12-31" f="2014-09-07" o="9727" d="9961" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="610" u="2999-12-31" f="2014-09-07" o="9727" d="9965" r="00000" t="SDR" res="  " fare="600" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="611" u="2999-12-31" f="2014-09-07" o="9727" d="9965" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="612" u="2999-12-31" f="2014-09-07" o="9727" d="9965" r="00000" t="CDR" res="B3" fare="430" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="613" u="2999-12-31" f="2014-09-07" o="9727" d="9728" r="00000" t="SDR" res="  " fare="410" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="614" u="2999-12-31" f="2014-09-07" o="9727" d="9728" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="615" u="2999-12-31" f="2014-09-07" o="9727" d="9728" r="00000" t="CDR" res="B3" fare="300" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="616" u="2999-12-31" f="2014-09-07" o="9727" d="9787" r="00000" t="SDR" res="  " fare="500" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="617" u="2999-12-31" f="2014-09-07" o="9727" d="9787" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="618" u="2999-12-31" f="2014-09-07" o="9727" d="9787" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="619" u="2999-12-31" f="2014-09-07" o="9727" d="9683" r="00000" t="SDR" res="  " fare="760" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="620" u="2999-12-31" f="2014-09-07" o="9727" d="9683" r="00000" t="CDR" res="B3" fare="570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="621" u="2999-12-31" f="2014-09-07" o="9727" d="9683" r="00000" t="CDR" res="B3" fare="570" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="622" u="2999-12-31" f="2014-09-07" o="9727" d="9691" r="00000" t="SDR" res="  " fare="360" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="623" u="2999-12-31" f="2014-09-07" o="9727" d="9691" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="624" u="2999-12-31" f="2014-09-07" o="9727" d="9691" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9136" tvmid="1222">
+      <q n="728" u="2999-12-31" f="2014-09-07" o="9136" d="9328" r="00000" t="SDR" res="  " fare="860" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="729" u="2999-12-31" f="2014-09-07" o="9136" d="9328" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="730" u="2999-12-31" f="2014-09-07" o="9136" d="9328" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="731" u="2999-12-31" f="2014-09-07" o="9136" d="9318" r="00000" t="SDR" res="  " fare="680" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="732" u="2999-12-31" f="2014-09-07" o="9136" d="9318" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="733" u="2999-12-31" f="2014-09-07" o="9136" d="9318" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="734" u="2999-12-31" f="2014-09-07" o="9136" d="9039" r="00000" t="SOR" res="  " fare="2400" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="735" u="2999-12-31" f="2014-09-07" o="9136" d="9039" r="00000" t="CDR" res="H1" fare="1560" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="736" u="2999-12-31" f="2014-09-07" o="9136" d="9039" r="00000" t="CDR" res="H1" fare="1560" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="737" u="2999-12-31" f="2014-09-07" o="9136" d="0433" r="00000" t="SOR" res="  " fare="2680" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="738" u="2999-12-31" f="2014-09-07" o="9136" d="0433" r="00000" t="CDR" res="H1" fare="2030" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="739" u="2999-12-31" f="2014-09-07" o="9136" d="0433" r="00000" t="CDR" res="H1" fare="2030" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="740" u="2999-12-31" f="2014-09-07" o="9136" d="8976" r="00000" t="SOR" res="  " fare="4840" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="741" u="2999-12-31" f="2014-09-07" o="9136" d="8976" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="742" u="2999-12-31" f="2014-09-07" o="9136" d="8976" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="743" u="2999-12-31" f="2014-09-07" o="9136" d="9304" r="00000" t="SDR" res="  " fare="1040" cli="0" fl="1" orient="0" dband="YYYYYYY" tband="All"/>
+      <q n="743" u="2999-12-31" f="2014-09-07" o="9136" d="9304" r="00000" t="SDR" res="  " fare="1040" cli="0" fl="1" orient="0" dband="YYYYYYY" tband="All"/>
+      <q n="744" u="2999-12-31" f="2014-09-07" o="9136" d="9419" r="00000" t="SDR" res="  " fare="860" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="745" u="2999-12-31" f="2014-09-07" o="9136" d="9419" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="746" u="2999-12-31" f="2014-09-07" o="9136" d="9419" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="747" u="2999-12-31" f="2014-09-07" o="9136" d="9145" r="00000" t="SDR" res="  " fare="790" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="748" u="2999-12-31" f="2014-09-07" o="9136" d="9145" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="749" u="2999-12-31" f="2014-09-07" o="9136" d="9145" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="750" u="2999-12-31" f="2014-09-07" o="9136" d="9186" r="00000" t="SDR" res="  " fare="370" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="751" u="2999-12-31" f="2014-09-07" o="9136" d="9186" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="752" u="2999-12-31" f="2014-09-07" o="9136" d="9186" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="753" u="2999-12-31" f="2014-09-07" o="9136" d="9415" r="00000" t="SDR" res="  " fare="420" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="754" u="2999-12-31" f="2014-09-07" o="9136" d="9415" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="755" u="2999-12-31" f="2014-09-07" o="9136" d="9415" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="756" u="2999-12-31" f="2014-09-07" o="9136" d="9188" r="00000" t="SDR" res="  " fare="2090" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="757" u="2999-12-31" f="2014-09-07" o="9136" d="9188" r="00000" t="SVR" res="8F" fare="1890" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="758" u="2999-12-31" f="2014-09-07" o="9136" d="9188" r="00000" t="SVR" res="8F" fare="1890" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="759" u="2999-12-31" f="2014-09-07" o="9136" d="9189" r="00000" t="SDR" res="  " fare="370" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="760" u="2999-12-31" f="2014-09-07" o="9136" d="9189" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="761" u="2999-12-31" f="2014-09-07" o="9136" d="9189" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9160" tvmid="1225">
+      <q n="762" u="2999-12-31" f="2014-09-07" o="9160" d="9328" r="00000" t="SDR" res="  " fare="1890" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="763" u="2999-12-31" f="2014-09-07" o="9160" d="9328" r="00000" t="CDR" res="H1" fare="1140" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="764" u="2999-12-31" f="2014-09-07" o="9160" d="9328" r="00000" t="CDR" res="H1" fare="1140" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="765" u="2999-12-31" f="2014-09-07" o="9160" d="9039" r="00000" t="SDR" res="  " fare="1700" cli="0" fl="1" orient="0" dband="YYYYYYY" tband="All"/>
+      <q n="765" u="2999-12-31" f="2014-09-07" o="9160" d="9039" r="00000" t="SDR" res="  " fare="1700" cli="0" fl="1" orient="0" dband="YYYYYYY" tband="All"/>
+      <q n="766" u="2999-12-31" f="2014-01-02" o="9160" d="8805" r="00001" t="SDR" res="  " fare="1460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="767" u="2999-12-31" f="2014-01-02" o="9160" d="8805" r="00001" t="CDR" res="B7" fare="900" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="768" u="2999-12-31" f="2014-01-02" o="9160" d="8805" r="00001" t="CDR" res="B7" fare="900" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="769" u="2999-12-31" f="2014-09-07" o="9160" d="8976" r="00000" t="SOR" res="  " fare="5820" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="770" u="2999-12-31" f="2014-09-07" o="9160" d="8976" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="771" u="2999-12-31" f="2014-09-07" o="9160" d="8976" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="772" u="2999-12-31" f="2014-09-07" o="9160" d="9188" r="00000" t="SDR" res="  " fare="1200" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="773" u="2999-12-31" f="2014-09-07" o="9160" d="9188" r="00000" t="CDR" res="H1" fare="890" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="774" u="2999-12-31" f="2014-09-07" o="9160" d="9188" r="00000" t="CDR" res="H1" fare="890" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="775" u="2999-12-31" f="2014-09-07" o="9160" d="8905" r="00000" t="SOR" res="  " fare="5820" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="776" u="2999-12-31" f="2014-09-07" o="9160" d="8905" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="777" u="2999-12-31" f="2014-09-07" o="9160" d="8905" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="778" u="2999-12-31" f="2014-09-07" o="9160" d="9136" r="00000" t="SDR" res="  " fare="1180" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="779" u="2999-12-31" f="2014-09-07" o="9160" d="9136" r="00000" t="CDR" res="H1" fare="890" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="780" u="2999-12-31" f="2014-09-07" o="9160" d="9136" r="00000" t="CDR" res="H1" fare="890" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="781" u="2999-12-31" f="2014-09-07" o="9160" d="9145" r="00000" t="SDR" res="  " fare="600" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="782" u="2999-12-31" f="2014-09-07" o="9160" d="9145" r="00000" t="CDR" res="H1" fare="400" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="783" u="2999-12-31" f="2014-09-07" o="9160" d="9145" r="00000" t="CDR" res="H1" fare="400" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="784" u="2999-12-31" f="2014-09-07" o="9160" d="0433" r="00000" t="SOR" res="  " fare="2910" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="785" u="2999-12-31" f="2014-09-07" o="9160" d="0433" r="00000" t="SVR" res="8F" fare="2450" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="786" u="2999-12-31" f="2014-09-07" o="9160" d="0433" r="00000" t="SVR" res="8F" fare="2450" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="787" u="2999-12-31" f="2014-09-07" o="9160" d="9419" r="00000" t="SDR" res="  " fare="1890" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="788" u="2999-12-31" f="2014-09-07" o="9160" d="9419" r="00000" t="CDR" res="H1" fare="1140" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="789" u="2999-12-31" f="2014-09-07" o="9160" d="9419" r="00000" t="CDR" res="H1" fare="1140" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="790" u="2999-12-31" f="2014-09-07" o="9160" d="8649" r="00353" t="SOR" res="  " fare="5050" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="791" u="2999-12-31" f="2014-09-07" o="9160" d="8649" r="00353" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="792" u="2999-12-31" f="2014-09-07" o="9160" d="8649" r="00353" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="793" u="2999-12-31" f="2014-09-07" o="9160" d="9121" r="00000" t="SDR" res="  " fare="860" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="794" u="2999-12-31" f="2014-09-07" o="9160" d="9121" r="00000" t="CDR" res="H1" fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="795" u="2999-12-31" f="2014-09-07" o="9160" d="9121" r="00000" t="CDR" res="H1" fare="680" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="9145" tvmid="1226">
+      <q n="796" u="2999-12-31" f="2014-09-07" o="9145" d="9328" r="00000" t="SDR" res="  " fare="1360" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="797" u="2999-12-31" f="2014-09-07" o="9145" d="9328" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="798" u="2999-12-31" f="2014-09-07" o="9145" d="9328" r="00000" t="CDR" res="H1" fare="940" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="799" u="2999-12-31" f="2014-09-07" o="9145" d="9136" r="00000" t="SDR" res="  " fare="790" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="800" u="2999-12-31" f="2014-09-07" o="9145" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="801" u="2999-12-31" f="2014-09-07" o="9145" d="9136" r="00000" t="CDR" res="H1" fare="550" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="802" u="2999-12-31" f="2014-01-02" o="9145" d="8805" r="00001" t="SDR" res="  " fare="1490" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="803" u="2999-12-31" f="2014-01-02" o="9145" d="8805" r="00001" t="CDR" res="B7" fare="900" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="804" u="2999-12-31" f="2014-01-02" o="9145" d="8805" r="00001" t="CDR" res="B7" fare="900" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="805" u="2999-12-31" f="2014-09-07" o="9145" d="9318" r="00000" t="SDR" res="  " fare="1330" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="806" u="2999-12-31" f="2014-09-07" o="9145" d="9318" r="00000" t="CDR" res="H1" fare="870" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="807" u="2999-12-31" f="2014-09-07" o="9145" d="9318" r="00000" t="CDR" res="H1" fare="870" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="808" u="2999-12-31" f="2014-09-07" o="9145" d="9188" r="00000" t="SDR" res="  " fare="1630" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="809" u="2999-12-31" f="2014-09-07" o="9145" d="9188" r="00000" t="CDR" res="H1" fare="1250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="810" u="2999-12-31" f="2014-09-07" o="9145" d="9188" r="00000" t="CDR" res="H1" fare="1250" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="811" u="2999-12-31" f="2014-09-07" o="9145" d="9121" r="00000" t="SDR" res="  " fare="1060" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="812" u="2999-12-31" f="2014-09-07" o="9145" d="9121" r="00000" t="CDR" res="H1" fare="840" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="813" u="2999-12-31" f="2014-09-07" o="9145" d="9121" r="00000" t="CDR" res="H1" fare="840" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="814" u="2999-12-31" f="2014-09-07" o="9145" d="9039" r="00000" t="SOR" res="  " fare="2200" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="815" u="2999-12-31" f="2014-09-07" o="9145" d="9039" r="00000" t="CDR" res="H1" fare="1430" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="816" u="2999-12-31" f="2014-09-07" o="9145" d="9039" r="00000" t="CDR" res="H1" fare="1430" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="817" u="2999-12-31" f="2014-09-07" o="9145" d="0433" r="00000" t="SOR" res="  " fare="2910" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="818" u="2999-12-31" f="2014-09-07" o="9145" d="0433" r="00000" t="SVR" res="8F" fare="2450" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="819" u="2999-12-31" f="2014-09-07" o="9145" d="0433" r="00000" t="SVR" res="8F" fare="2450" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="820" u="2999-12-31" f="2014-09-07" o="9145" d="9107" r="00000" t="SDR" res="  " fare="580" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="821" u="2999-12-31" f="2014-09-07" o="9145" d="9107" r="00000" t="CDR" res="H1" fare="380" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="822" u="2999-12-31" f="2014-09-07" o="9145" d="9107" r="00000" t="CDR" res="H1" fare="380" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="823" u="2999-12-31" f="2014-09-07" o="9145" d="8976" r="00000" t="SOR" res="  " fare="5820" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="824" u="2999-12-31" f="2014-09-07" o="9145" d="8976" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="825" u="2999-12-31" f="2014-09-07" o="9145" d="8976" r="00000" t="SVR" res="8F" fare="4900" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="826" u="2999-12-31" f="2014-09-07" o="9145" d="9160" r="00000" t="SDR" res="  " fare="600" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="827" u="2999-12-31" f="2014-09-07" o="9145" d="9160" r="00000" t="CDR" res="H1" fare="400" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="828" u="2999-12-31" f="2014-09-07" o="9145" d="9160" r="00000" t="CDR" res="H1" fare="400" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="829" u="2999-12-31" f="2014-09-07" o="9145" d="9142" r="00000" t="SDR" res="  " fare="370" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="830" u="2999-12-31" f="2014-09-07" o="9145" d="9142" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="831" u="2999-12-31" f="2014-09-07" o="9145" d="9142" r="00000" t="CDR" res="H1" fare="320" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+    </station>
+    <station nlc="8860" tvmid="1227">
+      <q n="860" u="2999-12-31" f="2014-09-07" o="8860" d="8976" r="00000" t="SDR" res="  " fare="590" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="861" u="2999-12-31" f="2014-09-07" o="8860" d="8976" r="00000" t="CDR" res="H1" fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="862" u="2999-12-31" f="2014-09-07" o="8860" d="8976" r="00000" t="CDR" res="H1" fare="470" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="863" u="2999-12-31" f="2014-09-07" o="8860" d="9039" r="00000" t="SOR" res="  " fare="3300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="864" u="2999-12-31" f="2014-09-07" o="8860" d="9039" r="00000" t="SVR" res="8F" fare="2980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="865" u="2999-12-31" f="2014-09-07" o="8860" d="9039" r="00000" t="SVR" res="8F" fare="2980" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="866" u="2999-12-31" f="2014-09-07" o="8860" d="0433" r="00000" t="SOR" res="  " fare="8330" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="867" u="2999-12-31" f="2014-09-07" o="8860" d="0433" r="00000" t="SVR" res="8F" fare="5800" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="868" u="2999-12-31" f="2014-09-07" o="8860" d="0433" r="00000" t="SVR" res="8F" fare="5800" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="869" u="2999-12-31" f="2014-09-07" o="8860" d="9328" r="00000" t="SOR" res="  " fare="6020" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="870" u="2999-12-31" f="2014-09-07" o="8860" d="9328" r="00000" t="SVR" res="8F" fare="5160" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="871" u="2999-12-31" f="2014-09-07" o="8860" d="9328" r="00000" t="SVR" res="8F" fare="5160" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="872" u="2999-12-31" f="2014-09-07" o="8860" d="8805" r="00000" t="SOR" res="  " fare="4600" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="873" u="2999-12-31" f="2014-09-07" o="8860" d="8805" r="00000" t="SVR" res="8F" fare="3870" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="874" u="2999-12-31" f="2014-09-07" o="8860" d="8805" r="00000" t="SVR" res="8F" fare="3870" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="875" u="2999-12-31" f="2014-09-07" o="8860" d="8649" r="00000" t="SOR" res="  " fare="4990" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="876" u="2999-12-31" f="2014-09-07" o="8860" d="8649" r="00000" t="CDR" res="H8" fare="3360" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="877" u="2999-12-31" f="2014-09-07" o="8860" d="8649" r="00000" t="CDR" res="H8" fare="3360" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="878" u="2999-12-31" f="2014-09-07" o="8860" d="8905" r="00000" t="SDR" res="  " fare="880" cli="0" fl="1" orient="1" dband="YYYYYYY" tband="All"/>
+      <q n="878" u="2999-12-31" f="2014-09-07" o="8860" d="8905" r="00000" t="SDR" res="  " fare="880" cli="0" fl="1" orient="1" dband="YYYYYYY" tband="All"/>
+      <q n="879" u="2999-12-31" f="2014-09-07" o="8860" d="8964" r="00000" t="SDR" res="  " fare="630" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="880" u="2999-12-31" f="2014-09-07" o="8860" d="8964" r="00000" t="CDR" res="H1" fare="510" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="881" u="2999-12-31" f="2014-09-07" o="8860" d="8964" r="00000" t="CDR" res="H1" fare="510" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="882" u="2999-12-31" f="2014-09-07" o="8860" d="9080" r="00000" t="SDR" res="  " fare="1630" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="883" u="2999-12-31" f="2014-09-07" o="8860" d="9080" r="00000" t="CDR" res="H1" fare="1280" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="884" u="2999-12-31" f="2014-09-07" o="8860" d="9080" r="00000" t="CDR" res="H1" fare="1280" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="885" u="2999-12-31" f="2014-09-07" o="8860" d="9079" r="00000" t="SOR" res="  " fare="2330" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="886" u="2999-12-31" f="2014-09-07" o="8860" d="9079" r="00000" t="SVR" res="8F" fare="2040" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="887" u="2999-12-31" f="2014-09-07" o="8860" d="9079" r="00000" t="SVR" res="8F" fare="2040" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="888" u="2999-12-31" f="2014-09-07" o="8860" d="9888" r="00000" t="SOR" res="  " fare="7060" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="00:00-09:00"/>
+      <q n="889" u="2999-12-31" f="2014-09-07" o="8860" d="9888" r="00000" t="SVR" res="8F" fare="5800" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="09:01-23:59"/>
+      <q n="890" u="2999-12-31" f="2014-09-07" o="8860" d="9888" r="00000" t="SVR" res="8F" fare="5800" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="891" u="2999-12-31" f="2014-09-07" o="8860" d="8924" r="00000" t="SDR" res="  " fare="1360" cli="0" fl="1" orient="1" dband="YYYYYYY" tband="All"/>
+      <q n="891" u="2999-12-31" f="2014-09-07" o="8860" d="8924" r="00000" t="SDR" res="  " fare="1360" cli="0" fl="1" orient="1" dband="YYYYYYY" tband="All"/>
+    </station>
+    <station nlc="9950" tvmid="3203">
+      <q n="454" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="455" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="456" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="SDR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="457" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="458" u="2999-12-31" f="2014-01-02" o="9950" d="9328" r="00000" t="CDR" res="H1" fare="1260" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="459" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="SDR" res="  " fare="1260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="460" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="461" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="SDR" res="  " fare="1260" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="462" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="463" u="2999-12-31" f="2014-01-02" o="9950" d="9888" r="00000" t="CDR" res="H1" fare="810" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="464" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="SDS" res="  " fare="220" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="465" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="466" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="SDS" res="  " fare="220" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="467" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="468" u="2999-12-31" f="2014-01-02" o="9950" d="9940" r="00000" t="CDR" res="B3" fare="230" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="469" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="SDS" res="  " fare="310" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="470" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="471" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="SDS" res="  " fare="310" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="472" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="473" u="2999-12-31" f="2014-01-02" o="9950" d="9955" r="00000" t="CDR" res="B3" fare="350" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="474" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="SDS" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="475" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="476" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="SDS" res="  " fare="390" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="477" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="478" u="2999-12-31" f="2014-01-02" o="9950" d="9943" r="00000" t="CDR" res="B3" fare="470" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="479" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="SDS" res="  " fare="750" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="480" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="481" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="SDS" res="  " fare="750" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="482" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="483" u="2999-12-31" f="2014-01-02" o="9950" d="0431" r="00000" t="CDR" res="H1" fare="1050" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="484" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="SDS" res="  " fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="485" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="486" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="SDS" res="  " fare="300" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="487" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="488" u="2999-12-31" f="2014-01-02" o="9950" d="9842" r="00000" t="CDR" res="B3" fare="340" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="489" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="SDS" res="  " fare="1560" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="490" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="CDR" res="B7" fare="1570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="491" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="SDS" res="  " fare="1560" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="492" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="CDR" res="B7" fare="1570" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="493" u="2999-12-31" f="2014-01-02" o="9950" d="8805" r="00000" t="CDR" res="B7" fare="1570" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="494" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="SDS" res="  " fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="495" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="496" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="SDS" res="  " fare="380" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="497" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="498" u="2999-12-31" f="2014-01-02" o="9950" d="9759" r="00000" t="CDR" res="B3" fare="460" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="499" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="500" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="501" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="SDS" res="  " fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="502" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="503" u="2999-12-31" f="2014-01-02" o="9950" d="9845" r="00000" t="CDR" res="B3" fare="210" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="All"/>
+      <q n="504" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="SDS" res="  " fare="980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="505" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="CDR" res="H1" fare="1210" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="506" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="SDS" res="  " fare="980" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="507" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="CDR" res="H1" fare="1210" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="508" u="2999-12-31" f="2014-01-02" o="9950" d="9438" r="00000" t="CDR" res="H1" fare="1210" cli="0" fl="1" orient="0" dband="NNNNNYY" tband="All"/>
+      <q n="509" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="SDS" res="  " fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="Slot 10"/>
+      <q n="510" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
+      <q n="511" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="SDS" res="  " fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
+      <q n="512" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
+      <q n="513" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="NNNNNYY" />
+    </station>
+  </stations>
+</ParkeonQS>

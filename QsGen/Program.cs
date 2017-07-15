@@ -106,10 +106,11 @@ namespace QsGen
 
                     var qs = qsxml.Element("ParkeonQS").Elements("stations").Elements("station").Select(x => new
                     {
-                        Origin = x.Attribute("nlc")?.Value ?? throw new Exception("error"),
+                        Nlc = x.Attribute("nlc")?.Value ?? throw new Exception("missing nlc"),
+                        TvmId = x.Attribute("tvmid")?.Value ?? throw new Exception("missing tvmid"),
                         QSList = x.Elements("q").Select(y => new QuickSelect
                         {
-                            Origin = x.Attribute("nlc").Value, 
+                            Origin = y.Attribute("o").Value, 
                             Destination = y.Attribute("d").Value, 
                             Route = y.Attribute("r").Value,
                             EndDate = GetDate(y.Attribute("u").Value),
@@ -124,7 +125,7 @@ namespace QsGen
                             TimebandName = y.Attribute("dband")?.Value,
                             Status="000"
                         }).ToList(),
-                    }).ToDictionary(y => y.Origin, y => y.QSList);
+                    }).ToDictionary(y => y.Nlc + y.TvmId, y => y.QSList);
 
                     var stimebands = qsxml.Element("ParkeonQS").Element("timebands")?.Elements("timeband");
 
@@ -164,6 +165,7 @@ namespace QsGen
                 var codeBase = System.Reflection.Assembly.GetEntryAssembly().CodeBase;
                 var progname = Path.GetFileNameWithoutExtension(codeBase);
                 Console.Error.WriteLine(progname + ": Error: " + ex.Message);
+                Console.WriteLine();
             }
 
         }
@@ -176,10 +178,10 @@ namespace QsGen
                 new QuickSelect { Code = 2972, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDR", Restriction = "  ", AdultFare = 780, CrossLondonInd = 0, Orientation = 1, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
             };
 
-            var doc = new XDocument(
-                new XElement(
-                    "ParkeonQS", new XElement("stations", new XElement("station", 
-                );
+            //var doc = new XDocument(
+            //    new XElement(
+            //        "ParkeonQS", new XElement("stations", new XElement("station", 
+            //    );
 
         }
     }
