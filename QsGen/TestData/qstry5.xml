@@ -918,4 +918,72 @@
       <q n="513" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="NNNNNYY" />
     </station>
   </stations>
+  <timebands>
+    <timeband name="All">
+      <t start="00:00:00" end="23:59:59"/>
+    </timeband>
+    <timeband name="00:00-09:00">
+      <t start="00:00:00" end="09:00:00"/>
+    </timeband>
+    <timeband name="00:00-09:10">
+      <t start="00:00:00" end="09:10:00"/>
+    </timeband>
+    <timeband name="00:00-09:15">
+      <t start="00:00:00" end="09:15:00"/>
+    </timeband>
+    <timeband name="09:01-23:59">
+      <t start="09:01:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="09:11-23:59">
+      <t start="09:11:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="09:16-23:59">
+      <t start="09:16:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="GSK 09:01-16:30">
+      <t start="09:00:00" end="16:30:00"/>
+    </timeband>
+    <timeband name="GSK 16:30-18:00">
+      <t start="16:30:00" end="18:00:00"/>
+    </timeband>
+    <timeband name="GSK 18:01-00:00">
+      <t start="18:00:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="Lar 00:00-09:09">
+      <t start="00:00:00" end="09:10:00"/>
+    </timeband>
+    <timeband name="Lar 09:10-23:59">
+      <t start="09:10:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="S11 00:00-09:09">
+      <t start="00:00:00" end="09:09:00"/>
+    </timeband>
+    <timeband name="S11 16:30-18:15">
+      <t start="16:30:00" end="18:15:00"/>
+    </timeband>
+    <timeband name="S22 09:09-16:30">
+      <t start="09:09:00" end="16:30:00"/>
+    </timeband>
+    <timeband name="S22 18:15-23:59">
+      <t start="18:15:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="Slot 10">
+      <t start="00:00:00" end="09:00:00"/>
+    </timeband>
+    <timeband name="Slot 11">
+      <t start="00:00:00" end="09:15:00"/>
+    </timeband>
+    <timeband name="Slot 21 Off-Peak">
+      <t start="09:00:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="Slot 22 Off-Peak">
+      <t start="09:15:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="Slot 9 Off-Peak">
+      <t start="08:45:00" end="23:59:00"/>
+    </timeband>
+    <timeband name="Slot 9">
+      <t start="00:01:00" end="08:45:00"/>
+    </timeband>
+  </timebands>
 </ParkeonQS>

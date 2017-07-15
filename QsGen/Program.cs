@@ -132,12 +132,12 @@ namespace QsGen
                     var timebands = qsxml.Element("ParkeonQS").Element("timebands")
                         .Elements("timeband")
                         .Select(x => new TimeBandGroup {
-                            TimebandGroupName = x.Attribute("name").Value,
+                            TimebandGroupName = x.Attribute("name")?.Value,
                             TimebandList = (x.Elements("t")
                                 .Select(y => new Timeband
                                 {
-                                    Start = GetDateTime(y.Attribute("start").Value),
-                                    End = GetDateTime(y.Attribute("end").Value),
+                                    Start = GetDateTime(y.Attribute("start")?.Value),
+                                    End = GetDateTime(y.Attribute("end")?.Value),
                                 })).ToList()
                         }
                         ).ToList();
