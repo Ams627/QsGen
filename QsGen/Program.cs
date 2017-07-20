@@ -71,7 +71,7 @@ namespace QsGen
             CheckElements(elements, x => !Regex.Match(x.Attribute("r").Value, "^[0-9]{5}$").Success, $"r attribute has an invalid route code.");
             CheckElements(elements, x => !Regex.Match(x.Attribute("t").Value, "^[0-9A-Z]{3}$").Success, "t attribute has an invalid ticket code.");
             CheckElements(elements, x => !Regex.Match(x.Attribute("fare").Value, "^[0-9]{1,10}$").Success, $"fare attribute has an invalid fare.");
-            CheckElements(elements, x => !Regex.Match(x.Attribute("res").Value, "^[0-9A-Z]{2}$").Success, $"res attribute has an invalid restriction code.");
+            CheckElements(elements, x => !Regex.Match(x.Attribute("res").Value, "^[0-9A-Z ]{2}$").Success, $"res attribute has an invalid restriction code.");
             CheckElements(elements, x => !Regex.Match(x.Attribute("cli").Value, "^[0123]$").Success, $"cli (Cross London Indicator) attribute is invalid.");
             CheckElements(elements, x => !Regex.Match(x.Attribute("fl").Value, "^[0-9]$").Success, $"flag attribute is invalid.");
             CheckElements(elements, x => !Regex.Match(x.Attribute("orient").Value, "^[0-9]$").Success, $"orient attribute at line is invalid.");
@@ -110,22 +110,22 @@ namespace QsGen
                         TvmId = x.Attribute("tvmid")?.Value ?? throw new Exception("missing tvmid"),
                         QSList = x.Elements("q").Select(y => new QuickSelect
                         {
-                            Origin = y.Attribute("o").Value, 
-                            Destination = y.Attribute("d").Value, 
-                            Route = y.Attribute("r").Value,
-                            EndDate = GetDate(y.Attribute("u").Value),
-                            StartDate = GetDate(y.Attribute("f").Value),
-                            Ticket = y.Attribute("t").Value,
-                            AdultFare = Convert.ToInt32(y.Attribute("fare").Value),
-                            Restriction = y.Attribute("res").Value,
-                            CrossLondonInd = Convert.ToInt32(y.Attribute("cli").Value),
-                            Flag = Convert.ToInt32(y.Attribute("fl").Value),
-                            Orientation = Convert.ToInt32(y.Attribute("orient").Value),
+                            Origin = y.Attribute("o")?.Value ?? x.Attribute("nlc")?.Value, 
+                            Destination = y.Attribute("d")?.Value, 
+                            Route = y.Attribute("r")?.Value,
+                            EndDate = GetDate(y.Attribute("u")?.Value),
+                            StartDate = GetDate(y.Attribute("f")?.Value),
+                            Ticket = y.Attribute("t")?.Value,
+                            AdultFare = Convert.ToInt32(y.Attribute("fare")?.Value),
+                            Restriction = y.Attribute("res")?.Value,
+                            CrossLondonInd = Convert.ToInt32(y.Attribute("cli")?.Value),
+                            Flag = Convert.ToInt32(y.Attribute("fl")?.Value),
+                            Orientation = Convert.ToInt32(y.Attribute("orient")?.Value),
                             DatebandName = y.Attribute("dband")?.Value,
-                            TimebandName = y.Attribute("dband")?.Value,
+                            TimebandName = y.Attribute("tband")?.Value,
                             Status="000"
                         }).ToList(),
-                    }).ToDictionary(y => y.Nlc + y.TvmId, y => y.QSList);
+                    }).ToDictionary(y => y.Nlc + '-' + y.TvmId, y => y.QSList);
 
                     var stimebands = qsxml.Element("ParkeonQS").Element("timebands")?.Elements("timeband");
 
@@ -141,6 +141,9 @@ namespace QsGen
                                 })).ToList()
                         }
                         ).ToList();
+
+
+                    // MakeDoc(qsxml.Elements());
 
                     // same timeband list for all TVMs
                     var timebandSection = new TimebandSection { TBGroupList = timebands };
@@ -169,6 +172,38 @@ namespace QsGen
             }
 
         }
+
+        class Indent
+        {
+            public int n = 0;
+        }
+
+        //private static void MakeDoc(IEnumerable<XElement> elements, Indent n = null)
+        //{
+        //    var indent = n?.n ?? 0;
+        //    if (indent == 0)
+        //    {
+        //        Console.WriteLine("new XDocument(");
+        //    }
+        //    foreach (var element in elements)
+        //    {
+        //        Console.Write($"new XElement(\"{element.Name}\"");
+        //        var atts = element.Attributes().ToList().Aggregate("", (current, next)=>current + ", " + $"    new XAttribute(\"{next.Name}\", \"{next.Value}\")");
+        //        Console.WriteLine(atts);
+        //        if (element.IsEmpty)
+        //        {
+        //            Console.WriteLine($"),");
+        //        }
+        //        else
+        //        {
+        //            Console.Write(", ");
+        //            indent += 4;
+        //            MakeDoc(element.Elements(), new Indent { n = indent });
+        //        }
+        //    }
+        //    Console.WriteLine(")");
+        //    indent -= 4;
+        //}
 
         private static void CreateSampleAndPrint()
         {

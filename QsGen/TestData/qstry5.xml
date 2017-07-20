@@ -915,7 +915,7 @@
       <q n="510" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 09:01-16:30"/>
       <q n="511" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="SDS" res="  " fare="680" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 16:30-18:00"/>
       <q n="512" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="YYYYYNN" tband="GSK 18:01-00:00"/>
-      <q n="513" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="NNNNNYY" />
+      <q n="513" u="2999-12-31" f="2014-01-02" o="9950" d="9876" r="00000" t="CDR" res="H1" fare="720" cli="0" fl="1" orient="1" dband="NNNNNYY" tband="GSK 18:01-00:00"/>
     </station>
   </stations>
   <timebands>
