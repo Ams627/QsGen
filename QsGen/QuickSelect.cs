@@ -61,5 +61,32 @@ namespace QsGen
         [Tlv(TlvTypes.String, TlvTags.ID_QCKSEL_TIMEBAND_NAME)]
         public string TimebandName { get; set; }
 
+        public QuickSelect(
+            string code,
+            string origin,
+            string destination,
+            string route,
+            string ticket,
+            string restriction,
+            string orientation,
+            string timeband,
+            string dateband
+            )
+        {
+            StartDate = new DateTime(2018, 02, 16);
+            EndDate = new DateTime(2999, 12, 31);
+            CrossLondonInd = 0;
+            Status = "000";
+            Flag = 8447;
+            AdultFare = 123456;
+            Code = Convert.ToInt32(code);
+            Origin = origin;
+            Destination = destination;
+            Route = route;
+            Ticket = ticket;
+            Restriction = restriction;
+            TimebandName = timeband;
+            DatebandName = dateband;
+        }
     }
 }

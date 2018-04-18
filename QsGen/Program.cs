@@ -112,122 +112,132 @@ namespace QsGen
                 }
                 else
                 {
-                    var version = args.Length > 1 ? args[1] : "40";
                     var qsxml = XDocument.Load(args[0], LoadOptions.SetLineInfo);
 
-                    //var qElements = qsxml.Descendants("q");
-                    //CheckQElements(qElements);
-
-                    var qs = qsxml.Element("ProductDefinition").Elements("Products").Where(v=>v.Attribute("Version").Value == version). Select(x => new
-                    {
-                        Nlc = x.Attribute("Nlc").Value,
-                        TvmId = x.Attribute("TvmId").Value,
-                        Version = x.Attribute("Version").Value,
-                        QuickSelects = x.Elements("Product").Where(y => y.Attribute("Type").Value == "QuickSelect").Select(z => new
+                    // read all Products (quick selects and popular destinations):
+                    var qs = qsxml.Element("ProductDefinition").Elements("Products")
+                        .Select(x => new
                         {
-                            Code = z.Attribute("Code").Value,
-                            Origin = z.Attribute("Origin").Value,
-                            Destination = z.Attribute("Destination").Value,
-                            Route = z.Attribute("Route").Value,
-                            TicketCode = z.Attribute("TicketCode").Value,
-                            Restriction = z.Attribute("Restriction").Value,
-                            Orientation = z.Attribute("Orientation").Value,
-                            Timeband = z.Attribute("Timeband").Value,
-                            Dayband = z.Attribute("Dayband").Value,
-                        }),
-                        Populars = x.Elements("Products").Where(y => y.Attribute("Type").Value == "Popular").Select(z => z.Attribute("Destination").Value).ToList()
-                    });
+                            Nlc = x.Attribute("Nlc").Value,
+                            TvmId = x.Attribute("TvmId").Value,
+                            Version = x.Attribute("Version").Value,
+                            QuickSelects = x.Elements("Product").Where(y => y.Attribute("Type").Value == "QuickSelect")
+                            .Select(z => new QuickSelect
+                            (
+                                code: z.Attribute("Code")?.Value,
+                                origin: z.Attribute("Origin")?.Value,
+                                destination: z.Attribute("Destination")?.Value,
+                                route: z.Attribute("Route")?.Value,
+                                ticket: z.Attribute("TicketCode")?.Value,
+                                restriction: z.Attribute("Restriction")?.Value,
+                                orientation: z.Attribute("Orientation")?.Value,
+                                timeband: z.Attribute("Timeband")?.Value,
+                                dateband: z.Attribute("Dayband")?.Value
+                            )),
 
+                            Populars = x.Elements("Products")
+                                .Where(y => y.Attribute("Type")?.Value == "Popular")
+                                .Select(z => z.Attribute("Destination")?.Value).ToList()
+                        });
+
+                    // read all timebands:
                     var timebands = qsxml.Element("ProductDefinition").Element("TimeAndDateValidity")
                         .Elements("Timebands")
-                        .Where(v => v.Attribute("Version").Value == version)
-                        .SelectMany(tbs=>tbs.Elements("Timeband")
-                        .Select(tb=> new
+                        .Select(tbs => new
                         {
-                            Version = tb.Attribute("Version").Value,
-                            Timebands = tb.Elements("Timeband").Select(timeband => new
+                            Version = tbs.Attribute("Version").Value,
+                            Timebands = tbs.Elements("Timeband")
+                                .Select(band => new
+                                        {
+                                           End = band.Attribute("End").Value,
+                                           Start = band.Attribute("Start").Value,
+                                           Id = band.Attribute("Id").Value
+                                        }).ToLookup(x=>x.Id, x=> new Timeband(start: x.Start, end: x.End))
+                        }).ToLookup(y=>y.Version, y=>y.Timebands);
+
+                    // read all daybands:
+                    var daybands = qsxml.Element("ProductDefinition").Element("TimeAndDateValidity")
+                        .Elements("Daybands")
+                        .Select(dbs => new
+                        {
+                            Version = dbs.Attribute("Version").Value,
+                            Daybands = dbs.Elements("Dayband").Select(db => new
                             {
-                                End = tb.Attribute("End")?.Value ?? "wonk",
-                                Start = tb.Attribute("Start")?.Value ?? "plonk",
-                                Id = tb.Attribute("Id")?.Value ?? "hello",
-                                //End = x.Attribute("End")?.Value ?? throw new Exception("End time invalid"),
-                                //Start = x.Attribute("Start")?.Value ?? throw new Exception("Start time invalid"),
-                                //Id = x.Attribute("Id")?.Value ?? throw new Exception("Start time invalid"),
-                            }
+                                Valid = db.Attribute("Valid")?.Value ?? throw new Exception("End time invalid"),
+                                Id = db.Attribute("Id")?.Value ?? throw new Exception("Start time invalid"),
+                            }).ToLookup(x => x.Id, x => x.Valid)
+                        }).ToLookup(x=>x.Version, x=>x.Daybands);
+
+                    // check for duplicates in timebands:
+                    var versionDups = timebands.Where(x => x.Count() > 1);
+                    foreach (var v in versionDups)
+                    {
+                        Console.Error.WriteLine($"WARNING: version {v.Key} occcurs more than once in Timebands list. Will used first entry in file.");
+                    }
+
+                    foreach (var tb in timebands)
+                    {
+                        var cnt = tb.Count();
+                        var tbDups = tb.First().Where(x => x.Count() > 1);
+                        foreach (var item in tbDups)
+                        {
+                            Console.WriteLine($"WARNING timeband name '{item.Key}' occurs more than once for version {tb.Key}");
+                        }
+                    }
+
+                    // check for duplicates in daybands:
+                    var dbVersionDups = daybands.Where(x => x.Count() > 1);
+                    foreach (var v in dbVersionDups)
+                    {
+                        Console.Error.WriteLine($"WARNING: version {v.Key} occcurs more than once in Daybands list.");
+                    }
+
+                    foreach (var db in daybands)
+                    {
+                        var dbDups = db.First().Where(x => x.Count() > 1);
+                        foreach (var dbdup in dbDups)
+                        {
+                            Console.Error.WriteLine($"WARNING: dayband {dbdup} used more than once in version {db.Key}.");
+                        }
+                    }
+
+                    var qlookup = qs.ToLookup(x => x.Nlc, x=>(x.Version, x.TvmId, x.QuickSelects));
+
+                    Parallel.ForEach(qlookup, qsfile =>
+                    {
+                        var dirname = qsfile.Key;
+                        Directory.CreateDirectory(dirname);
+                        var pathname = Path.Combine(dirname, "QUICK_SE");
+                        var firstTvm = qsfile.First();
+                        var qsSection = new QSSection
+                        {
+                            Version = Convert.ToInt32(qsfile.First().Version),
+                            TVMId = firstTvm.TvmId,
+                            QuickSelects = qsfile.First().QuickSelects.ToList()
+                        };
+                        var usedTimebands = qsSection.QuickSelects.Select(x => x.TimebandName);
+
+                        var timebandsForVersion = timebands[firstTvm.Version];
+
+                        var timebandSection = new TimebandSection
+                        {
+                            TBGroupList = (from bandlist in timebandsForVersion
+                                           from band in bandlist
+                                           select new TimeBandGroup
+                                           {
+                                               TimebandGroupName = band.Key,
+                                               TimebandList = band.ToList()
+                                           }).ToList()
+                        };
+
+                        using (var fs = new FileStream(pathname, FileMode.Create, FileAccess.Write))
+                        {
+                            byte[] header = new UTF8Encoding(true).GetBytes("TLtV0100");
+                            fs.Write(header, 0, header.Length);
+                            qsSection.Serialise(fs);
+                            timebandSection.Serialise(fs);
                         }
                     });
-
-                    var daybands = qsxml.Element("ProductDefinition").Element("TimeAndDateValidity").Elements("Daybands").Where(v => v.Attribute("Version").Value == version).Select(x => new
-                    {
-                        Version = x.Attribute("Version").Value,
-                        Timebands = x.Elements("Dayband").Select(timeband => new
-                        {
-                            End = x.Attribute("End")?.Value ?? throw new Exception("End time invalid"),
-                            Start = x.Attribute("Start")?.Value ?? throw new Exception("Start time invalid"),
-                            Id = x.Attribute("Id")?.Value ?? throw new Exception("Start time invalid"),
-                        })
-                    });
-
-                    Console.WriteLine();
-
-                    //    Elements("station").Select(x => new
-                    //{
-                    //    Nlc = x.Attribute("nlc")?.Value ?? throw new Exception("missing nlc"),
-                    //    TvmId = x.Attribute("tvmid")?.Value ?? throw new Exception("missing tvmid"),
-                    //    QSList = x.Elements("q").Select((y, index) => new QuickSelect
-                    //    {
-                    //        Code = index + 1,
-                    //        Origin = y.Attribute("o")?.Value ?? x.Attribute("nlc")?.Value, 
-                    //        Destination = y.Attribute("d")?.Value, 
-                    //        Route = y.Attribute("r")?.Value,
-                    //        EndDate = GetDate(y.Attribute("u")?.Value),
-                    //        StartDate = GetDate(y.Attribute("f")?.Value),
-                    //        Ticket = y.Attribute("t")?.Value,
-                    //        AdultFare = Convert.ToInt32(y.Attribute("fare")?.Value),
-                    //        Restriction = y.Attribute("res")?.Value,
-                    //        CrossLondonInd = Convert.ToInt32(y.Attribute("cli")?.Value),
-                    //        Flag = Convert.ToInt32(y.Attribute("fl")?.Value),
-                    //        Orientation = Convert.ToInt32(y.Attribute("orient")?.Value),
-                    //        DatebandName = y.Attribute("dband")?.Value,
-                    //        TimebandName = y.Attribute("tband")?.Value,
-                    //        Status="000"
-                    //    }).ToList(),
-                    //}).ToDictionary(y => y.Nlc + '-' + y.TvmId, y => y.QSList);
-
-                    var stimebands = qsxml.Element("ParkeonQS").Element("timebands")?.Elements("timeband");
-
-                    //var timebands = qsxml.Element("ParkeonQS").Element("timebands")
-                    //    .Elements("timeband")
-                    //    .Select(x => new TimeBandGroup {
-                    //        TimebandGroupName = x.Attribute("name")?.Value,
-                    //        TimebandList = (x.Elements("t")
-                    //            .Select(y => new Timeband
-                    //            {
-                    //                Start = GetDateTime(y.Attribute("start")?.Value),
-                    //                End = GetDateTime(y.Attribute("end")?.Value),
-                    //            })).ToList()
-                    //    }
-                    //    ).ToList();
-
-
-                    // MakeDoc(qsxml.Elements());
-
-                    // same timeband list for all TVMs
-                    // var timebandSection = new TimebandSection { TBGroupList = timebands };
-
-                    //foreach (var stationKey in qs.Keys)
-                    //{
-                    //    var qsSection = new QSSection { Version = 90, TVMId = "TVM50", QuickSelects = qs.First().Value };
-
-                    //    var filename = "QUICK_SE." + stationKey;
-                    //    using (var fs = new FileStream(filename, FileMode.Create, FileAccess.Write))
-                    //    {
-                    //        byte[] header = new UTF8Encoding(true).GetBytes("TLtV0100");
-                    //        fs.Write(header, 0, header.Length);
-                    //        qsSection.Serialise(fs);
-                    //        timebandSection.Serialise(fs);
-                    //    }
-                    //}
                 }
             }
             catch (Exception ex)
@@ -251,45 +261,14 @@ namespace QsGen
             return result;
         }
 
-        class Indent
-        {
-            public int n = 0;
-        }
-
-        //private static void MakeDoc(IEnumerable<XElement> elements, Indent n = null)
-        //{
-        //    var indent = n?.n ?? 0;
-        //    if (indent == 0)
-        //    {
-        //        Console.WriteLine("new XDocument(");
-        //    }
-        //    foreach (var element in elements)
-        //    {
-        //        Console.Write($"new XElement(\"{element.Name}\"");
-        //        var atts = element.Attributes().ToList().Aggregate("", (current, next)=>current + ", " + $"    new XAttribute(\"{next.Name}\", \"{next.Value}\")");
-        //        Console.WriteLine(atts);
-        //        if (element.IsEmpty)
-        //        {
-        //            Console.WriteLine($"),");
-        //        }
-        //        else
-        //        {
-        //            Console.Write(", ");
-        //            indent += 4;
-        //            MakeDoc(element.Elements(), new Indent { n = indent });
-        //        }
-        //    }
-        //    Console.WriteLine(")");
-        //    indent -= 4;
-        //}
-
+                
         private static void CreateSampleAndPrint()
         {
-            var qslist = new List<QuickSelect>
-            {
-                new QuickSelect { Code = 2971, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDS", Restriction = "  ", AdultFare = 660, CrossLondonInd = 0, Orientation = 0, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
-                new QuickSelect { Code = 2972, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDR", Restriction = "  ", AdultFare = 780, CrossLondonInd = 0, Orientation = 1, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
-            };
+            //var qslist = new List<QuickSelect>
+            //{
+            //    new QuickSelect { Code = 2971, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDS", Restriction = "  ", AdultFare = 660, CrossLondonInd = 0, Orientation = 0, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
+            //    new QuickSelect { Code = 2972, EndDate = new DateTime(2999, 12, 31), StartDate = new DateTime(2014, 1, 2), Route = "00000", Origin="8048", Destination = "8126", Ticket = "SDR", Restriction = "  ", AdultFare = 780, CrossLondonInd = 0, Orientation = 1, DatebandName = "YYYYYNN", TimebandName="10 Peak" },
+            //};
 
             //var doc = new XDocument(
             //    new XElement(

@@ -37,7 +37,7 @@ namespace QsGen
             int result = -1;
             if (s != null && Regex.Match(s, @"\d\d:\d\d").Success)
             {
-                result = 60 * ((s[0] * 10) - '0' + s[1] - '0') + 60 * (s[3] - '0') + s[4] - '0';
+                result = 60 * ((s[0] - '0') * 10 + s[1] - '0') + ((s[3] - '0') * 10) + s[4] - '0';
                 if (result < 0 || result >= 1440)
                 {
                     result = -1;
