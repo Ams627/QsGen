@@ -1,0 +1,28 @@
+<ParkeonQS version="50">
+<stations>
+<station nlc="1492" tvmid="TVM50">
+    <q d="0035" r="00000" u="2099-12-31" f="2017-02-28" t="ADT" res="  " fare="1495" cli="1" fl="1" orient="0" dband="YYYYYNN" tband="Peak"/>
+    <q d="1072" r="00000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="1" dband="YYYYYNN" tband="Peak"/>
+    <q d="1072" r="00000" u="2099-12-31" f="2017-02-28" t="SDR" res="  " fare="1495" cli="1" fl="1" orient="0" dband="YYYYYNN" tband="Peak"/>
+    <q d="0035" r="00000" u="2099-12-31" f="2017-02-28" t="7TS" res="  " fare="1495" cli="1" fl="1" orient="1" dband="YYYYYNN" tband="Peak"/>
+    <q d="0506" r="00000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="0" dband="YYYYYNN" tband="Peak"/>
+    <q d="1463" r="01000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="1" dband="YYYYYNN" tband="Peak"/>
+    <!-- -->
+    <q d="0598" r="00000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="0" dband="YYYYYNN" tband="Peak"/>
+    <q d="3054" r="01000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="1" dband="YYYYYNN" tband="Peak"/>
+    <q d="3054" r="01000" u="2099-12-31" f="2017-02-28" t="SDR" res="  " fare="1495" cli="1" fl="1" orient="0" dband="YYYYYNN" tband="Peak"/>
+    <q d="1467" r="01000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="1" dband="YYYYYNN" tband="Peak"/>
+    <q d="1466" r="01000" u="2099-12-31" f="2017-02-28" t="SDS" res="  " fare="1495" cli="1" fl="1" orient="0" dband="YYYYYNN" tband="Peak"/>
+    <q d="1466" r="01000" u="2099-12-31" f="2017-02-28" t="SDR" res="  " fare="1495" cli="1" fl="1" orient="1" dband="YYYYYNN" tband="Peak"/>
+
+</station>
+</stations>
+<timebands>
+<timeband name="Peak">
+    <t start="04:00:00" end="15:59:00"/>
+</timeband>
+<timeband name="Offpeak">
+    <t start="16:00:00" end="23:59:00"/>
+</timeband>
+</timebands>
+</ParkeonQS>

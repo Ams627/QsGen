@@ -1,16 +1,16 @@
 <ParkeonQS version="50">
-<stations>
-<station nlc="9414" tvmid="TVM50">
+<Devices>
+<Device nlc="9414" tvmid="TVM50">
     <q d="9319" r="00000" u="2017-12-31" f="2017-02-28"
-       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
+       t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All" category="promo" page="carnet"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
        t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
        t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
        t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
-</station>
-<station nlc="9415" tvmid="TVM50">
+</Device>
+<Device nlc="9415" tvmid="TVM50">
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
        t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
@@ -19,15 +19,15 @@
        t="7DS" res="1D" fare="1495" cli="1" fl="1" orient="0" dband="yyyyynn" tband="All"/>
     <q d="9319" r="00000" u="2017-12-31" f="2017-01-01"
        t="7DS" res="1D" fare="149523" cli="1" fl="1" orient="2" dband="yyyyynn" tband="All"/>
-</station>
-</stations>
+</Device>
+</Devices>
 <timebands>
 <timeband name="All"> 
     <t start="11:00" end="12:15:29"/>
     <t start="17:00" end="18:57:15"/>
     <t start="19:00" end="23:08:09"/>
 </timeband>
-<timeband name="Wonk"> 
+<timeband name="Some"> 
     <t start="11:00" end="12:15:29"/>
     <t start="17:00" end="18:57:15"/>
 </timeband>

@@ -1,5 +1,10 @@
 <ParkeonQS version="50">
   <stations>
+    <station nlc="9419" tvmid="TVM50">
+      <q n="75" u="2999-12-31" f="2014-01-02" o="9419" d="5883" r="00000" t="SOR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="All"/>
+      <q n="75" u="2999-12-31" f="2014-01-02" o="9419" d="5881" r="00000" t="SOR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="All"/>
+      <q n="75" u="2999-12-31" f="2014-01-02" o="9419" d="5932" r="00000" t="SOR" res="  " fare="2250" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="All"/>
+    </station>
     <station nlc="9039" tvmid="1200">
       <q n="1" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SDS" res="  " fare="1730" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 11"/>
       <q n="3" u="2999-12-31" f="2014-01-02" o="9039" d="9328" r="00000" t="SVR" res="8F" fare="2730" cli="0" fl="1" orient="0" dband="YYYYYNN" tband="Slot 22 Off-Peak"/>
