@@ -4,7 +4,7 @@ using TlvSerialise;
 
 namespace QsGen
 {
-    internal class Timeband
+    internal class Timeband : TlvSerialisable
     {
         int _startMinutes;
         int _endMinutes;

@@ -222,7 +222,7 @@ namespace QsGen
                         var timebandSection = new TimebandSection
                         {
                             TBGroupList = (from bandlist in timebandsForVersion
-                                           from band in bandlist
+                                           from band in bandlist where usedTimebands.Contains(band.Key)
                                            select new TimeBandGroup
                                            {
                                                TimebandGroupName = band.Key,
