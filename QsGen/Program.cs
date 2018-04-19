@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using TlvSerialise;
+
 namespace QsGen
 {
     internal class Program
@@ -51,6 +52,19 @@ namespace QsGen
         {
             source.Where(predicate).ToList().ForEach(y => Console.Error.WriteLine($"at line {(addLinenumber ? GetLineNumber(y as XElement) : 0)}: {message}"));
             return 0;
+        }
+
+        private static void WriteTlvFile(string pathname, params TlvSerialisable[] ts)
+        {
+            using (var fs = new FileStream(pathname, FileMode.Create, FileAccess.Write))
+            {
+                byte[] header = new UTF8Encoding(true).GetBytes("TLtV0100");
+                fs.Write(header, 0, header.Length);
+                foreach (var section in ts)
+                {
+                    section.Serialise(fs);
+                }
+            }
         }
 
         private static void CheckQElements(IEnumerable<XElement> elements)
@@ -115,7 +129,7 @@ namespace QsGen
                     var qsxml = XDocument.Load(args[0], LoadOptions.SetLineInfo);
 
                     // read all Products (quick selects and popular destinations):
-                    var qs = qsxml.Element("ProductDefinition").Elements("Products")
+                    var products = qsxml.Element("ProductDefinition").Elements("Products")
                         .Select(x => new
                         {
                             Nlc = x.Attribute("Nlc").Value,
@@ -135,10 +149,12 @@ namespace QsGen
                                 dateband: z.Attribute("Dayband")?.Value
                             )),
 
-                            Populars = x.Elements("Products")
+                            Populars = x.Elements("Product")
                                 .Where(y => y.Attribute("Type")?.Value == "Popular")
                                 .Select(z => z.Attribute("Destination")?.Value).ToList()
                         });
+
+                    var pops = products.Select(x => x.QuickSelects);
 
                     // read all timebands:
                     var timebands = qsxml.Element("ProductDefinition").Element("TimeAndDateValidity")
@@ -148,12 +164,12 @@ namespace QsGen
                             Version = tbs.Attribute("Version").Value,
                             Timebands = tbs.Elements("Timeband")
                                 .Select(band => new
-                                        {
-                                           End = band.Attribute("End").Value,
-                                           Start = band.Attribute("Start").Value,
-                                           Id = band.Attribute("Id").Value
-                                        }).ToLookup(x=>x.Id, x=> new Timeband(start: x.Start, end: x.End))
-                        }).ToLookup(y=>y.Version, y=>y.Timebands);
+                                {
+                                    End = band.Attribute("End").Value,
+                                    Start = band.Attribute("Start").Value,
+                                    Id = band.Attribute("Id").Value
+                                }).ToLookup(x => x.Id, x => new Timeband(start: x.Start, end: x.End))
+                        }).ToLookup(y => y.Version, y => y.Timebands);
 
                     // read all daybands:
                     var daybands = qsxml.Element("ProductDefinition").Element("TimeAndDateValidity")
@@ -163,10 +179,10 @@ namespace QsGen
                             Version = dbs.Attribute("Version").Value,
                             Daybands = dbs.Elements("Dayband").Select(db => new
                             {
-                                Valid = db.Attribute("Valid")?.Value ?? throw new Exception("End time invalid"),
-                                Id = db.Attribute("Id")?.Value ?? throw new Exception("Start time invalid"),
+                                Valid = db.Attribute("Valid")?.Value ?? throw new Exception("Valid element invalid"),
+                                Id = db.Attribute("Id")?.Value ?? throw new Exception("Id element invalid"),
                             }).ToLookup(x => x.Id, x => x.Valid)
-                        }).ToLookup(x=>x.Version, x=>x.Daybands);
+                        }).ToLookup(x => x.Version, x => x.Daybands);
 
                     // check for duplicates in timebands:
                     var versionDups = timebands.Where(x => x.Count() > 1);
@@ -201,7 +217,7 @@ namespace QsGen
                         }
                     }
 
-                    var qlookup = qs.ToLookup(x => x.Nlc, x=>(x.Version, x.TvmId, x.QuickSelects));
+                    var qlookup = products.ToLookup(x => x.Nlc, x => (x.Version, x.TvmId, x.QuickSelects));
 
                     Parallel.ForEach(qlookup, qsfile =>
                     {
@@ -222,7 +238,8 @@ namespace QsGen
                         var timebandSection = new TimebandSection
                         {
                             TBGroupList = (from bandlist in timebandsForVersion
-                                           from band in bandlist where usedTimebands.Contains(band.Key)
+                                           from band in bandlist
+                                           where usedTimebands.Contains(band.Key)
                                            select new TimeBandGroup
                                            {
                                                TimebandGroupName = band.Key,
@@ -230,13 +247,27 @@ namespace QsGen
                                            }).ToList()
                         };
 
-                        using (var fs = new FileStream(pathname, FileMode.Create, FileAccess.Write))
+                        WriteTlvFile(pathname, qsSection, timebandSection);
+                    });
+
+
+                    // var qlookup = products.ToLookup(x => x.Nlc, x => (x.Version, x.TvmId, x.QuickSelects));
+
+                    var popLookup = products.ToLookup(x => x.Nlc, x => (x.Version, x.TvmId, x.Populars));
+
+                    Parallel.ForEach(popLookup, popfile =>
+                    {
+                        var dirname = popfile.Key;
+                        Directory.CreateDirectory(dirname);
+                        var pathname = Path.Combine(dirname, "POPULAR");
+                        var firstTvm = popfile.First();
+                        var popSection = new PopularList
                         {
-                            byte[] header = new UTF8Encoding(true).GetBytes("TLtV0100");
-                            fs.Write(header, 0, header.Length);
-                            qsSection.Serialise(fs);
-                            timebandSection.Serialise(fs);
-                        }
+                            Version = Convert.ToInt32(firstTvm.Version),
+                            TVMId = firstTvm.TvmId,
+                            PopularTickets = firstTvm.Populars.Select(x=>new PopularDestination { Nlc = x }).ToList()
+                        };
+                        WriteTlvFile(pathname, popSection);
                     });
                 }
             }
