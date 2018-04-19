@@ -147,12 +147,12 @@ namespace QsGen
                                 orientation: z.Attribute("Orientation")?.Value,
                                 timeband: z.Attribute("Timeband")?.Value,
                                 dateband: z.Attribute("Dayband")?.Value
-                            )),
+                            )).ToList(),
 
                             Populars = x.Elements("Product")
                                 .Where(y => y.Attribute("Type")?.Value == "Popular")
                                 .Select(z => z.Attribute("Destination")?.Value).ToList()
-                        });
+                        }).ToList();
 
                     var pops = products.Select(x => x.QuickSelects);
 
@@ -216,6 +216,31 @@ namespace QsGen
                             Console.Error.WriteLine($"WARNING: dayband {dbdup} used more than once in version {db.Key}.");
                         }
                     }
+
+                    for (int i = 0; i < products.Count; i++)
+                    {
+                        for (int j = 0; j < products[i].QuickSelects.Count; j++)
+                        {
+                            var current = products[i].QuickSelects[j];
+                            var version = products[i].Version;
+                            var dayBandsForVersion = daybands[version].First();
+                            var daysString = dayBandsForVersion[current.DatebandName].First();
+                            daysString =  daysString.Replace('0', 'N');
+                            daysString = daysString.Replace('1', 'Y');
+                            current.DatebandName = daysString.Substring(0, daysString.Length - 1);
+                        }
+                    }
+
+                    //// for each quick select replace the dateband name with the actual "day string"
+                    //foreach (var versionProducts in products)
+                    //{
+                    //    foreach (var qs in versionProducts.QuickSelects)
+                    //    {
+                    //        var version = versionProducts.Version;
+                    //        var dayBandsForVersion = daybands[version].First();
+                    //        var daysString = dayBandsForVersion[qs.DatebandName].First();
+                    //    }
+                    //}
 
                     var qlookup = products.ToLookup(x => x.Nlc, x => (x.Version, x.TvmId, x.QuickSelects));
 

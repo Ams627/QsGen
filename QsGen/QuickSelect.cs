@@ -74,10 +74,10 @@ namespace QsGen
             )
         {
             StartDate = new DateTime(2018, 02, 16);
-            EndDate = new DateTime(2999, 12, 31);
+            EndDate = new DateTime(2166, 05, 18);
             CrossLondonInd = 0;
             Status = "000";
-            Flag = 8447;
+            Flag = 31415;
             AdultFare = 123456;
             Code = Convert.ToInt32(code);
             Origin = origin;
