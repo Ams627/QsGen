@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProductDefinition>
-    <Products Nlc="1090" TvmId="AVP01" Version="39">
+    <Products Nlc="1090" TvmId="AVP01" Version="39" AllowOtherDestinations="1">
         <Product Type="QuickSelect" Code="1003" Origin="1090" Destination="0035" Route="00000" TicketCode="ADT" Restriction="  " Orientation="0" Timeband="00:01 - 08:49" Dayband="Week Days"/>
         <Product Type="QuickSelect" Code="1004" Origin="1090" Destination="0035" Route="00000" TicketCode="ODT" Restriction="  " Orientation="0" Timeband="08:50 - 23:59" Dayband="Week Days"/>
         <Product Type="QuickSelect" Code="1005" Origin="1090" Destination="0035" Route="00000" TicketCode="ODT" Restriction="  " Orientation="0" Timeband="All" Dayband="Weekend"/>
