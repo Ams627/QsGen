@@ -124,7 +124,7 @@ namespace QsGen
                 {
                     CreateSampleAndPrint();
                 }
-                else
+                else if (args[0].EndsWith(".xml")
                 {
                     var qsxml = XDocument.Load(args[0], LoadOptions.SetLineInfo);
 
@@ -294,6 +294,10 @@ namespace QsGen
                         };
                         WriteTlvFile(pathname, popSection);
                     });
+                }
+                else if (args[0].EndsWith(".qmd"))
+                {
+                    var markdownProcessor = new MarkdownProcessor(args[0]);
                 }
             }
             catch (Exception ex)

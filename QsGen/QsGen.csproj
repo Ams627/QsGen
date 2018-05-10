@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BadNlcSectionException.cs" />
+    <Compile Include="MarkdownProcessor.cs" />
     <Compile Include="PopularDestination.cs" />
     <Compile Include="PopularList.cs" />
     <Compile Include="Program.cs" />
